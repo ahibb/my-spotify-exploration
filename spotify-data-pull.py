@@ -1,6 +1,6 @@
 import requests
 import json
-
+import re
 
 def get_api_token():
     # open file with credentials to access Spotify API
@@ -17,6 +17,7 @@ def get_api_token():
         'client_secret': CLIENT_SECRET
     })
 
+    # Process token based on API response
     if auth_response.status_code == 200:
         auth_response_data = auth_response.json()
 
@@ -28,25 +29,44 @@ def get_api_token():
 
 def api_error_message(response):
     response_data = response.json()
-    print("Error accessing url {url} with error {error}".format(url=response.url, error=response_data['error']))
-    print("Error details: {description}".format(description=response_data['error_description']))
+    print('Error accessing url {url} with error {error}'.format(url=response.url, error=response_data['error']))
+    print('Error details: {description}'.format(description=response_data['error_description']))
 
 def get_my_playlists(BASE_URL, headers):
-    # album link https://open.spotify.com/album/3stadz88XVpHcXnVYMHc4J?si=-Wfsnr3nRvyCjL4ETMz8Ow&dl_branch=1
-    album_id = '3stadz88XVpHcXnVYMHc4J'
     user_id = '1258359139'
 
     # GET request with proper header
-    # r = requests.get(BASE_URL + 'albums/' + album_id +'/tracks', headers=headers)
-    r = requests.get(BASE_URL + 'users/' + user_id + '/playlists', headers=headers)
+    r = requests.get(BASE_URL + 'users/' + user_id + '/playlists?limit=40', headers=headers)
     r = r.json()
-    #tracks = r['items'][0]['name']
     playlists = r['items']
 
-    for playlist in playlists:
-        print(playlist)
-        print('\n')
+    return playlists
 
+def process_playlists(playlists):
+    playlist_ids = {}
+    for playlist in playlists:
+        pl_new_name = process_playlist_name(playlist['name'])
+
+
+def process_playlist_name(pl_name):
+    year = re.compile('[0-9]')
+    year_text = year.findall(pl_name)
+    
+    pl_month = get_month_name(pl_name)
+    pl_new_name = ''
+    if pl_month:
+        pl_new_name = pl_month + ' ' +  ''.join(year_text)
+    
+    return pl_new_name
+
+
+def get_month_name(pl_name):
+    months = ["december","january","february","march","april",
+            "may","june","july","august","september","october","november"]
+    for month in months:
+        if month in pl_name.lower():
+            return month
+    return ''
 
 def main():
     access_token = get_api_token()
@@ -56,7 +76,8 @@ def main():
             'Authorization': 'Bearer {token}'.format(token=access_token)
         }
         BASE_URL = 'https://api.spotify.com/v1/'
-        get_my_playlists(BASE_URL, headers)
+        playlists = get_my_playlists(BASE_URL, headers)
+        process_playlists(playlists)
 
 
 main()
