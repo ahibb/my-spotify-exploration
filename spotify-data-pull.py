@@ -3,6 +3,7 @@ import json
 import re
 
 def get_api_token():
+    """Retrieve the API token from Spotify."""
     # open file with credentials to access Spotify API
     creds_file = open('.creds.json', 'r')
     creds = json.load(creds_file)
@@ -24,10 +25,15 @@ def get_api_token():
         access_token = auth_response_data['access_token']
         return access_token
     else:
-        api_error_message(auth_response)
+        display_api_error_details(auth_response)
     return ''
 
-def api_error_message(response):
+def display_api_error_details(response):
+    """Print an error message returned from the API.
+    
+    Keyword arguments
+    response -- The response object returned from the API request
+    """
     response_data = response.json()
     print('Error accessing url {url} with error {error}'.format(url=response.url, error=response_data['error']))
     print('Error details: {description}'.format(description=response_data['error_description']))
