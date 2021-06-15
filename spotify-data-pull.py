@@ -39,9 +39,15 @@ def display_api_error_details(response):
     print('Error details: {description}'.format(description=response_data['error_description']))
 
 def get_my_playlists(BASE_URL, headers):
+    """Retrieve my playlists from the Spotify API (limit set to 40).
+    
+    Keyword arguments
+    BASE_URL -- The base url for all Spotify API requests
+    headers -- API request headers including bearer token.
+    """
     user_id = '1258359139'
 
-    # GET request with proper header
+    # GET request
     r = requests.get(BASE_URL + 'users/' + user_id + '/playlists?limit=40', headers=headers)
     r = r.json()
     playlists = r['items']
@@ -51,15 +57,19 @@ def get_my_playlists(BASE_URL, headers):
 def process_playlists(playlists):
     playlist_ids = {}
     for playlist in playlists:
-        pl_new_name = process_playlist_name(playlist['name'])
+        pl_new_name = create_playlist_name(playlist['name'])
+        if pl_new_name:
+            playlist_ids[pl_new_name] = playlist['id']
+    
+    return playlist_ids
 
 
-def process_playlist_name(pl_name):
+def create_playlist_name(pl_name):
     year = re.compile('[0-9]')
     year_text = year.findall(pl_name)
     
-    pl_month = get_month_name(pl_name)
     pl_new_name = ''
+    pl_month = get_month_name(pl_name)
     if pl_month:
         pl_new_name = pl_month + ' ' +  ''.join(year_text)
     
@@ -74,6 +84,17 @@ def get_month_name(pl_name):
             return month
     return ''
 
+def get_playlist_tracks(playlist_name, playlist_id, BASE_URL, headers):
+    
+    # GET request
+    #fields = 'items(href,added_at,track(!available_markets),id,name,type,uri,artists'
+    fields = 'items(added_at, track(album(!available_markets)))'
+    #r = requests.get(BASE_URL + 'playlists/' + playlist_id + '/tracks?fields={items}'.format(items=fields), headers=headers)
+    r = requests.get(BASE_URL + 'playlists/' + playlist_id + '/tracks', headers=headers)
+    print(r)
+    r = r.json()
+    print(r['items'][0])
+
 def main():
     access_token = get_api_token()
 
@@ -83,7 +104,8 @@ def main():
         }
         BASE_URL = 'https://api.spotify.com/v1/'
         playlists = get_my_playlists(BASE_URL, headers)
-        process_playlists(playlists)
+        playlist_lookup = process_playlists(playlists)
+        get_playlist_tracks("april 2021", "7lA7xRlf9FheHyjDcGThxu", BASE_URL, headers)
 
 
 main()
