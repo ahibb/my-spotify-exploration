@@ -55,11 +55,15 @@ def get_my_playlists(BASE_URL, headers):
     return playlists
 
 def process_playlists(playlists):
-    playlist_ids = {}
+    playlist_ids = []
     for playlist in playlists:
+        pl_obj = {}
         pl_new_name = create_playlist_name(playlist['name'])
         if pl_new_name:
-            playlist_ids[pl_new_name] = playlist['id']
+            pl_obj['playlist_original_name'] = playlist['name']
+            pl_obj['playlist_new_name'] = pl_new_name
+            pl_obj['playlist_id'] = playlist['id']
+            playlist_ids.append(pl_obj)
     
     return playlist_ids
 
@@ -84,16 +88,33 @@ def get_month_name(pl_name):
             return month
     return ''
 
-def get_playlist_tracks(playlist_name, playlist_id, BASE_URL, headers):
+def get_playlist_tracks(playlist_id, BASE_URL, headers):
+    #define what fields we want from the API
+    fields = 'items(added_at,track(album(!available_markets,images),artists,duration_ms,explicit,external_urls,href,id,name,popularity,preview_url,track,type))'
+    r = requests.get(BASE_URL + 'playlists/' + playlist_id + '/tracks?fields={items}'.format(items=fields), headers=headers)
+
+    if r.status_code == 200:
+        json_track_data = r.json()
+        #print(json.dumps(json_track_data, sort_keys = False, indent=4))
+        return json_track_data
+    else:
+        display_api_error_details(r)
     
-    # GET request
-    #fields = 'items(href,added_at,track(!available_markets),id,name,type,uri,artists'
-    fields = 'items(added_at, track(album(!available_markets)))'
-    #r = requests.get(BASE_URL + 'playlists/' + playlist_id + '/tracks?fields={items}'.format(items=fields), headers=headers)
-    r = requests.get(BASE_URL + 'playlists/' + playlist_id + '/tracks', headers=headers)
-    print(r)
-    r = r.json()
-    print(r['items'][0])
+    return {}
+
+def create_tracklist_json(playlist_lookup):
+    '''
+    {
+        playlist original name
+        playlist new name
+        playlist month
+        playlist year
+        playlist id
+        tracks:[]
+    }
+    '''
+    new_pl_obj = {}
+    
 
 def main():
     access_token = get_api_token()
@@ -104,8 +125,9 @@ def main():
         }
         BASE_URL = 'https://api.spotify.com/v1/'
         playlists = get_my_playlists(BASE_URL, headers)
-        playlist_lookup = process_playlists(playlists)
-        get_playlist_tracks("april 2021", "7lA7xRlf9FheHyjDcGThxu", BASE_URL, headers)
+        playlist_data = process_playlists(playlists)
+        print(playlist_data)
+        #tracklist_obj = create_tracklist_json(playlist_lookup)
 
 
 main()
