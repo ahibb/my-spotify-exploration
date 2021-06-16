@@ -102,7 +102,7 @@ def get_playlist_tracks(playlist_id, BASE_URL, headers):
     
     return {}
 
-def create_tracklist_json(playlist_lookup):
+def create_tracklist_json(playlist_data, BASE_URL, headers):
     '''
     {
         playlist original name
@@ -113,7 +113,12 @@ def create_tracklist_json(playlist_lookup):
         tracks:[]
     }
     '''
-    new_pl_obj = {}
+    all_pl_items = []
+    for playlist_obj in playlist_data:
+        playlist_obj['tracks'] = get_playlist_tracks(playlist_obj['playlist_id'],BASE_URL,headers)
+        all_pl_items.append(playlist_obj)
+
+    return all_pl_items
     
 
 def main():
@@ -126,8 +131,9 @@ def main():
         BASE_URL = 'https://api.spotify.com/v1/'
         playlists = get_my_playlists(BASE_URL, headers)
         playlist_data = process_playlists(playlists)
-        print(playlist_data)
-        #tracklist_obj = create_tracklist_json(playlist_lookup)
+        tracklist_obj = create_tracklist_json(playlist_data, BASE_URL, headers)
+
+        print(json.dumps(tracklist_obj, sort_keys=False, indent=4))
 
 
 main()
