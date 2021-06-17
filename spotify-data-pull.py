@@ -39,7 +39,7 @@ def display_api_error_details(response):
     print('Error details: {description}'.format(description=response_data['error_description']))
 
 def get_my_playlists(BASE_URL, headers):
-    """Retrieve my playlists from the Spotify API (limit set to 40).
+    """Return collection of playlists as json objects retrieved from the Spotify API.
     
     Keyword arguments
     BASE_URL -- The base url for all Spotify API requests
@@ -55,6 +55,11 @@ def get_my_playlists(BASE_URL, headers):
     return playlists
 
 def process_playlists(playlists):
+    """Return playlist data as json object including cleaned playlist name.
+    
+    Keyword arguments
+    playlists: A list of JSON objects with raw playlist data.
+    """
     playlist_ids = []
     for playlist in playlists:
         pl_obj = {}
@@ -69,6 +74,11 @@ def process_playlists(playlists):
 
 
 def create_playlist_name(pl_name):
+    """Return playlist name that has been cleaned to only include month and year that the playlist was created.
+    
+    Keyword arguments
+    pl_name: Raw name of playlist as it exists in Spotify API
+    """
     year = re.compile('[0-9]')
     year_text = year.findall(pl_name)
     
@@ -89,13 +99,12 @@ def get_month_name(pl_name):
     return ''
 
 def get_playlist_tracks(playlist_id, BASE_URL, headers):
-    #define what fields we want from the API
+    #define what fields I want from the API
     fields = 'items(added_at,track(album(!available_markets,images),artists,duration_ms,explicit,external_urls,href,id,name,popularity,preview_url,track,type))'
     r = requests.get(BASE_URL + 'playlists/' + playlist_id + '/tracks?fields={items}'.format(items=fields), headers=headers)
 
     if r.status_code == 200:
         json_track_data = r.json()
-        #print(json.dumps(json_track_data, sort_keys = False, indent=4))
         return json_track_data
     else:
         display_api_error_details(r)
@@ -103,16 +112,6 @@ def get_playlist_tracks(playlist_id, BASE_URL, headers):
     return {}
 
 def create_tracklist_json(playlist_data, BASE_URL, headers):
-    '''
-    {
-        playlist original name
-        playlist new name
-        playlist month
-        playlist year
-        playlist id
-        tracks:[]
-    }
-    '''
     all_pl_items = []
     for playlist_obj in playlist_data:
         playlist_obj['tracks'] = get_playlist_tracks(playlist_obj['playlist_id'],BASE_URL,headers)
@@ -120,6 +119,40 @@ def create_tracklist_json(playlist_data, BASE_URL, headers):
 
     return all_pl_items
     
+def add_artist_genre(tracklist_obj, BASE_URL, headers):
+
+    artist_ids = []
+    artist_api_lookup = {}
+
+    api_lookup_index = 0
+    for playlist in tracklist_obj:
+        for song in playlist['tracks']['items']:
+            for artist in song['track']['artists']:
+                if artist['id'] not in artist_ids:
+                    artist_ids.append(artist['id'])
+
+    # 443 artists
+    # Spotify API allows for 50 artist objects at once
+
+    # get artist ids from list
+    # create api request string
+    # artist objects returned from API
+    # iterate through the artist object to get id and genre list
+    # append id and genres to list
+
+    
+    print(len(artist_ids))
+    '''
+    r = requests.get(BASE_URL + 'artists/' + artist_id, headers=headers)
+    if r.status_code == 200:
+        json_artists_data = r.json()
+        #print(json.dumps(json_artists_data, sort_keys=False, indent=4))
+    else:
+        display_api_error_details(r)
+        '''
+    
+
+
 
 def main():
     access_token = get_api_token()
@@ -133,7 +166,8 @@ def main():
         playlist_data = process_playlists(playlists)
         tracklist_obj = create_tracklist_json(playlist_data, BASE_URL, headers)
 
-        print(json.dumps(tracklist_obj, sort_keys=False, indent=4))
+        #print(json.dumps(tracklist_obj, sort_keys=False, indent=4))
+        add_artist_genre(tracklist_obj,BASE_URL, headers)
 
 
 main()
