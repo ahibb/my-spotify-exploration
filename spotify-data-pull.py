@@ -1,6 +1,7 @@
 import requests
 import json
 import re
+import math
 
 def get_api_token():
     """Retrieve the API token from Spotify."""
@@ -131,29 +132,32 @@ def add_artist_genre(tracklist_obj, BASE_URL, headers):
                 if artist['id'] not in artist_ids:
                     artist_ids.append(artist['id'])
 
-    # 443 artists
-    # Spotify API allows for 50 artist objects at once
+    num_artist_ids = len(artist_ids)
+    max_artists = 50
+    num_api_calls = math.ceil(num_artist_ids / max_artists)
 
-    # get artist ids from list
-    # create api request string
-    # artist objects returned from API
-    # iterate through the artist object to get id and genre list
-    # append id and genres to list
+    artist_genres = {}
 
+    for i in range(num_api_calls):
+        start_index = i * 50
+        end_index = (i + 1) * 50
+        request_artist_ids = artist_ids[start_index:end_index]
+        artist_id_str = ','.join(request_artist_ids)
+        r = requests.get(BASE_URL + 'artists?ids=' + artist_id_str, headers=headers)
+
+        if r.status_code == 200:
+            json_artist_data = r.json()
+            for artist in json_artist_data['artists']:
+                artist_genres[artist['id']] = artist['genres']
+        else:
+            display_api_error_details(r)
+
+    for playlist in tracklist_obj:
+        for song in playlist['tracks']['items']:
+            for artist in song['track']['artists']:
+                artist['genres'] = artist_genres[artist['id']]
     
-    print(len(artist_ids))
-    '''
-    r = requests.get(BASE_URL + 'artists/' + artist_id, headers=headers)
-    if r.status_code == 200:
-        json_artists_data = r.json()
-        #print(json.dumps(json_artists_data, sort_keys=False, indent=4))
-    else:
-        display_api_error_details(r)
-        '''
-    
-
-
-
+      
 def main():
     access_token = get_api_token()
 
@@ -166,8 +170,10 @@ def main():
         playlist_data = process_playlists(playlists)
         tracklist_obj = create_tracklist_json(playlist_data, BASE_URL, headers)
 
-        #print(json.dumps(tracklist_obj, sort_keys=False, indent=4))
+        print(json.dumps(tracklist_obj[0]['tracks']['items'][0]['track']['artists'], sort_keys=False, indent=4))
+        print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         add_artist_genre(tracklist_obj,BASE_URL, headers)
+        print(json.dumps(tracklist_obj[0]['tracks']['items'][0]['track']['artists'], sort_keys=False, indent=4))
 
 
 main()
