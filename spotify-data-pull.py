@@ -56,7 +56,7 @@ def get_my_playlists(BASE_URL, headers):
     return playlists
 
 def process_playlists(playlists):
-    """Return playlist data as json object including cleaned playlist name.
+    """Return playlist data as json object (playlist_ids) including cleaned playlist name.
     
     Keyword arguments
     playlists: A list of JSON objects with raw playlist data.
@@ -75,29 +75,25 @@ def process_playlists(playlists):
 
 
 def create_playlist_name(pl_name):
-    """Return playlist name that has been cleaned to only include month and year that the playlist was created.
+    """Return playlist name as pl_new_name formatted to be 'month year'.
     
     Keyword arguments
     pl_name: Raw name of playlist as it exists in Spotify API
     """
+    months = ["december","january","february","march","april",
+        "may","june","july","august","september","october","november"]
     year = re.compile('[0-9]')
     year_text = year.findall(pl_name)
     
     pl_new_name = ''
-    pl_month = get_month_name(pl_name)
+    pl_month = ''
+    for month in months:
+        if month in pl_name.lower():
+            pl_month = month
     if pl_month:
         pl_new_name = pl_month + ' ' +  ''.join(year_text)
     
     return pl_new_name
-
-
-def get_month_name(pl_name):
-    months = ["december","january","february","march","april",
-            "may","june","july","august","september","october","november"]
-    for month in months:
-        if month in pl_name.lower():
-            return month
-    return ''
 
 def get_playlist_tracks(playlist_id, BASE_URL, headers):
     #define what fields I want from the API
@@ -106,7 +102,7 @@ def get_playlist_tracks(playlist_id, BASE_URL, headers):
 
     if r.status_code == 200:
         json_track_data = r.json()
-        return json_track_data
+        return json_track_data['items']
     else:
         display_api_error_details(r)
     
@@ -127,7 +123,7 @@ def add_artist_genre(tracklist_obj, BASE_URL, headers):
 
     api_lookup_index = 0
     for playlist in tracklist_obj:
-        for song in playlist['tracks']['items']:
+        for song in playlist['tracks']:
             for artist in song['track']['artists']:
                 if artist['id'] not in artist_ids:
                     artist_ids.append(artist['id'])
@@ -153,11 +149,15 @@ def add_artist_genre(tracklist_obj, BASE_URL, headers):
             display_api_error_details(r)
 
     for playlist in tracklist_obj:
-        for song in playlist['tracks']['items']:
+        for song in playlist['tracks']:
             for artist in song['track']['artists']:
                 artist['genres'] = artist_genres[artist['id']]
     
-      
+def write_playlist_to_file(playlist_data):
+    with open('playlist_data.json', 'w', encoding='utf-8') as f:
+        json.dump(playlist_data, f, ensure_ascii=False, indent=4)
+        f.close() 
+
 def main():
     access_token = get_api_token()
 
@@ -169,11 +169,8 @@ def main():
         playlists = get_my_playlists(BASE_URL, headers)
         playlist_data = process_playlists(playlists)
         tracklist_obj = create_tracklist_json(playlist_data, BASE_URL, headers)
-
-        print(json.dumps(tracklist_obj[0]['tracks']['items'][0]['track']['artists'], sort_keys=False, indent=4))
-        print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         add_artist_genre(tracklist_obj,BASE_URL, headers)
-        print(json.dumps(tracklist_obj[0]['tracks']['items'][0]['track']['artists'], sort_keys=False, indent=4))
+        write_playlist_to_file(tracklist_obj)
 
 
 main()
