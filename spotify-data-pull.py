@@ -64,40 +64,18 @@ def process_playlists(playlists):
     playlist_ids = []
     for playlist in playlists:
         pl_obj = {}
-        pl_new_name = create_playlist_name(playlist['name'])
-        if pl_new_name:
-            pl_obj['playlist_original_name'] = playlist['name']
-            pl_obj['playlist_new_name'] = pl_new_name
-            pl_obj['playlist_id'] = playlist['id']
-            playlist_ids.append(pl_obj)
+        pl_obj['playlist_id'] = playlist['id']
+        pl_obj['owner_id'] = playlist['owner']['id']
+        pl_obj['owner_name'] = playlist['owner']['display_name']
+        playlist_ids.append(pl_obj)
     
     return playlist_ids
 
 
-def create_playlist_name(pl_name):
-    """Return playlist name as pl_new_name formatted to be 'month year'.
-    
-    Keyword arguments
-    pl_name: Raw name of playlist as it exists in Spotify API
-    """
-    months = ["december","january","february","march","april",
-        "may","june","july","august","september","october","november"]
-    year = re.compile('[0-9]')
-    year_text = year.findall(pl_name)
-    
-    pl_new_name = ''
-    pl_month = ''
-    for month in months:
-        if month in pl_name.lower():
-            pl_month = month
-    if pl_month:
-        pl_new_name = pl_month + ' ' +  ''.join(year_text)
-    
-    return pl_new_name
-
 def get_playlist_tracks(playlist_id, BASE_URL, headers):
-    #define what fields I want from the API
-    fields = 'items(added_at,track(album(!available_markets,images),artists,duration_ms,explicit,external_urls,href,id,name,popularity,preview_url,track,type))'
+    # define what fields I want from the API
+    # fields = 'items(added_at,track(album(!available_markets,images),artists,duration_ms,explicit,external_urls,href,id,name,popularity,preview_url,track,type))'
+    fields = 'items(added_at,track(artists,duration_ms,explicit,external_urls,href,id,name,popularity,preview_url,track,type))'
     r = requests.get(BASE_URL + 'playlists/' + playlist_id + '/tracks?fields={items}'.format(items=fields), headers=headers)
 
     if r.status_code == 200:
@@ -109,12 +87,14 @@ def get_playlist_tracks(playlist_id, BASE_URL, headers):
     return {}
 
 def create_tracklist_json(playlist_data, BASE_URL, headers):
-    all_pl_items = []
+    all_pl_tracks = []
     for playlist_obj in playlist_data:
-        playlist_obj['tracks'] = get_playlist_tracks(playlist_obj['playlist_id'],BASE_URL,headers)
-        all_pl_items.append(playlist_obj)
+        tracks =  get_playlist_tracks(playlist_obj['playlist_id'],BASE_URL,headers)
+        for track in tracks:
+            track['playlist_id'] = playlist_obj['playlist_id']
+            all_pl_tracks.append(track)
 
-    return all_pl_items
+    return all_pl_tracks
     
 def add_artist_genre(tracklist_obj, BASE_URL, headers):
 
@@ -169,8 +149,10 @@ def main():
         playlists = get_my_playlists(BASE_URL, headers)
         playlist_data = process_playlists(playlists)
         tracklist_obj = create_tracklist_json(playlist_data, BASE_URL, headers)
-        add_artist_genre(tracklist_obj,BASE_URL, headers)
-        write_playlist_to_file(tracklist_obj)
+       # add_artist_genre(tracklist_obj,BASE_URL, headers)
+        #write_playlist_to_file(tracklist_obj)
+
+        # To do: create separate look ups for individual artists and for artist genres
 
 
 main()
