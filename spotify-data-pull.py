@@ -88,26 +88,22 @@ def get_playlist_tracks(playlist_id, BASE_URL, headers):
 
 def create_tracklist_json(playlist_data, BASE_URL, headers):
     all_pl_tracks = []
+    playlist_track_ids = {}
     for playlist_obj in playlist_data:
+        playlist_id = playlist_obj['playlist_id']
         tracks =  get_playlist_tracks(playlist_obj['playlist_id'],BASE_URL,headers)
+
+        track_ids = []
         for track in tracks:
             track['playlist_id'] = playlist_obj['playlist_id']
             all_pl_tracks.append(track)
+            track_ids.append(track['track']['id'])
+        playlist_track_ids[playlist_id] = track_ids
 
-    return all_pl_tracks
-    
-def add_artist_genre(tracklist_obj, BASE_URL, headers):
+    return all_pl_tracks, playlist_track_ids
 
-    artist_ids = []
-    artist_api_lookup = {}
-
-    api_lookup_index = 0
-    for playlist in tracklist_obj:
-        for song in playlist['tracks']:
-            for artist in song['track']['artists']:
-                if artist['id'] not in artist_ids:
-                    artist_ids.append(artist['id'])
-
+def get_artist_genres(all_pl_tracks, BASE_URL, headers):
+    artist_ids = get_artist_ids(all_pl_tracks)
     num_artist_ids = len(artist_ids)
     max_artists = 50
     num_api_calls = math.ceil(num_artist_ids / max_artists)
@@ -128,14 +124,20 @@ def add_artist_genre(tracklist_obj, BASE_URL, headers):
         else:
             display_api_error_details(r)
 
-    for playlist in tracklist_obj:
-        for song in playlist['tracks']:
-            for artist in song['track']['artists']:
-                artist['genres'] = artist_genres[artist['id']]
+    return artist_genres
+
+def get_artist_ids(all_pl_tracks):
+    artist_ids = []
+
+    for track in all_pl_tracks:
+        for artist in track['track']['artists']:
+            if artist['id'] not in artist_ids:
+                artist_ids.append(artist['id'])
+    return artist_ids
     
-def write_playlist_to_file(playlist_data):
-    with open('playlist_data.json', 'w', encoding='utf-8') as f:
-        json.dump(playlist_data, f, ensure_ascii=False, indent=4)
+def write_data_to_file(data, filename):
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
         f.close() 
 
 def main():
@@ -148,9 +150,12 @@ def main():
         BASE_URL = 'https://api.spotify.com/v1/'
         playlists = get_my_playlists(BASE_URL, headers)
         playlist_data = process_playlists(playlists)
-        tracklist_obj = create_tracklist_json(playlist_data, BASE_URL, headers)
-       # add_artist_genre(tracklist_obj,BASE_URL, headers)
-        #write_playlist_to_file(tracklist_obj)
+        all_pl_tracks, playlist_track_ids = create_tracklist_json(playlist_data, BASE_URL, headers)
+        artist_genres= get_artist_genres(all_pl_tracks,BASE_URL, headers)
+
+        write_data_to_file(all_pl_tracks,'playlist_data.json')
+        write_data_to_file(artist_genres,'artist_genre_lookup.json')
+        write_data_to_file(playlist_track_ids,'playlist_track_lookup.json')
 
         # To do: create separate look ups for individual artists and for artist genres
 
