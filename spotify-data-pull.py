@@ -88,7 +88,7 @@ def get_playlist_tracks(playlist_id, BASE_URL, headers):
 
 def create_tracklist_json(playlist_data, BASE_URL, headers):
     all_pl_tracks = []
-    playlist_track_ids = {}
+    playlist_track_ids = []
     for playlist_obj in playlist_data:
         playlist_id = playlist_obj['playlist_id']
         tracks =  get_playlist_tracks(playlist_obj['playlist_id'],BASE_URL,headers)
@@ -98,7 +98,8 @@ def create_tracklist_json(playlist_data, BASE_URL, headers):
             track['playlist_id'] = playlist_obj['playlist_id']
             all_pl_tracks.append(track)
             track_ids.append(track['track']['id'])
-        playlist_track_ids[playlist_id] = track_ids
+        track_lookup =  {'playlist_id':playlist_obj['playlist_id'],'track_ids':track_ids}
+        playlist_track_ids.append(track_lookup)
 
     return all_pl_tracks, playlist_track_ids
 
@@ -108,7 +109,7 @@ def get_artist_genres(all_pl_tracks, BASE_URL, headers):
     max_artists = 50
     num_api_calls = math.ceil(num_artist_ids / max_artists)
 
-    artist_genres = {}
+    artist_genres = []
 
     for i in range(num_api_calls):
         start_index = i * 50
@@ -120,7 +121,8 @@ def get_artist_genres(all_pl_tracks, BASE_URL, headers):
         if r.status_code == 200:
             json_artist_data = r.json()
             for artist in json_artist_data['artists']:
-                artist_genres[artist['id']] = artist['genres']
+                artist_lookup = {'artist_id':artist['id'], 'genres':artist['genres']}
+                artist_genres.append(artist_lookup)
         else:
             display_api_error_details(r)
 
@@ -157,7 +159,9 @@ def main():
         write_data_to_file(artist_genres,'artist_genre_lookup.json')
         write_data_to_file(playlist_track_ids,'playlist_track_lookup.json')
 
-        # To do: create separate look ups for individual artists and for artist genres
+        # TODO Create json object for unique tracks with playlist references
+        # TODO Create json data to track tracks and all added at dates
+
 
 
 main()
