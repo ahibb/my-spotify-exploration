@@ -142,6 +142,15 @@ def write_data_to_file(data, filename):
         json.dump(data, f, ensure_ascii=False, indent=4)
         f.close() 
 
+def flatten_artist_genre_json(artist_genres_json):
+    genre_list = []
+    for artist in artist_genres_json:
+        for genre in artist['genres']:
+            single_genre = [artist['artist_id'],genre]
+            genre_list.append(single_genre)
+
+    return genre_list
+
 def main():
     access_token = get_api_token()
 
@@ -155,12 +164,16 @@ def main():
         all_pl_tracks, playlist_track_ids = create_tracklist_json(playlist_data, BASE_URL, headers)
         artist_genres= get_artist_genres(all_pl_tracks,BASE_URL, headers)
 
-        write_data_to_file(all_pl_tracks,'playlist_data.json')
-        write_data_to_file(artist_genres,'artist_genre_lookup.json')
-        write_data_to_file(playlist_track_ids,'playlist_track_lookup.json')
+        artist_genres_f = flatten_artist_genre_json(artist_genres)
+        print(artist_genres_f)
+        #write_data_to_file(all_pl_tracks,'playlist_data.json')
+        #write_data_to_file(artist_genres,'artist_genre_lookup.json')
+        #write_data_to_file(playlist_track_ids,'playlist_track_lookup.json')
 
         # TODO Create json object for unique tracks with playlist references
         # TODO Create json data to track tracks and all added at dates
+        #TODO update to pull data from Spotify and dump data to file
+        # TODO update to read data from file dump
 
 
 
