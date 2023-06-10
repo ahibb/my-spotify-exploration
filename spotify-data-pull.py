@@ -2,6 +2,7 @@ import requests
 import json
 import re
 import math
+import csv
 
 def get_api_token():
     """Retrieve the API token from Spotify."""
@@ -136,20 +137,40 @@ def get_artist_ids(all_pl_tracks):
             if artist['id'] not in artist_ids:
                 artist_ids.append(artist['id'])
     return artist_ids
-    
-def write_data_to_file(data, filename):
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-        f.close() 
 
 def flatten_artist_genre_json(artist_genres_json):
     genre_list = []
+    genre_list.append(['artist_id','genre'])
     for artist in artist_genres_json:
         for genre in artist['genres']:
             single_genre = [artist['artist_id'],genre]
             genre_list.append(single_genre)
-
     return genre_list
+
+def flatten_playlist_tracks_ids_json(playlist_track_ids):
+    playlist_tracks = []
+    playlist_tracks.append(['track_id','playlist_id'])
+    for playlist in playlist_track_ids:
+        for track in playlist['track_ids']:
+            track_id = [playlist['playlist_id'],track]
+            playlist_tracks.append(track_id)
+
+    return playlist_tracks
+
+
+def write_json_to_file(data, filename):
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+        f.close() 
+    print('wrote ', filename, ' to file')
+
+def write_to_csv(data, filename):
+    with open(filename, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        for row in data:
+            writer.writerow(row)
+    print('wrote ', filename, ' to file')
 
 def main():
     access_token = get_api_token()
@@ -159,16 +180,29 @@ def main():
             'Authorization': 'Bearer {token}'.format(token=access_token)
         }
         BASE_URL = 'https://api.spotify.com/v1/'
-        playlists = get_my_playlists(BASE_URL, headers)
+        #playlists = get_my_playlists(BASE_URL, headers)
+
+        # write raw playlist api output to file
+        #write_json_to_file(playlists, 'playlist_api_data.json')
+
+        # Opening JSON file
+        f = open('playlist_api_data.json')
+        playlists = json.load(f)
+        f.close()       
+
+        # process playlist data
         playlist_data = process_playlists(playlists)
         all_pl_tracks, playlist_track_ids = create_tracklist_json(playlist_data, BASE_URL, headers)
-        artist_genres= get_artist_genres(all_pl_tracks,BASE_URL, headers)
+
+
+        artist_genres = get_artist_genres(all_pl_tracks,BASE_URL, headers)
+        write_json_to_file(artist_genres, 'artist_genre_api_data.json')
 
         artist_genres_f = flatten_artist_genre_json(artist_genres)
-        print(artist_genres_f)
-        #write_data_to_file(all_pl_tracks,'playlist_data.json')
-        #write_data_to_file(artist_genres,'artist_genre_lookup.json')
-        #write_data_to_file(playlist_track_ids,'playlist_track_lookup.json')
+        playlist_track_f = flatten_playlist_tracks_ids_json(playlist_track_ids)
+        
+        write_to_csv(artist_genres_f,'artist_genres.csv')
+        write_to_csv(playlist_track_f,'playlist_track_lookup.csv')
 
         # TODO Create json object for unique tracks with playlist references
         # TODO Create json data to track tracks and all added at dates

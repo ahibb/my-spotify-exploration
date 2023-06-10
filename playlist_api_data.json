@@ -1,0 +1,1842 @@
+[
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7616W1uj1OqNPrCNJdUkCE"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7616W1uj1OqNPrCNJdUkCE",
+        "id": "7616W1uj1OqNPrCNJdUkCE",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27358039b5147731b6e52202e46ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818f",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27358039b5147731b6e52202e46ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818f",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27358039b5147731b6e52202e46ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818f",
+                "width": 60
+            }
+        ],
+        "name": "Summer 2023",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjQsZWM5N2RiYjM5MGVmNGZmMDQ0NTdlYWYwNGNjNGQ4MmFhMTM2ZWRhMg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7616W1uj1OqNPrCNJdUkCE/tracks",
+            "total": 23
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7616W1uj1OqNPrCNJdUkCE"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/2t8JKWp4eao7XuhEWkg1Xr"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2t8JKWp4eao7XuhEWkg1Xr",
+        "id": "2t8JKWp4eao7XuhEWkg1Xr",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27301ce8a5dd46ede9882f68ee5ab67616d0000b273835ff206c1878ab8392bdbffab67616d0000b273915d0e6e8a58ff78925de272ab67616d0000b273947b5cc535d76394a2d98e37",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27301ce8a5dd46ede9882f68ee5ab67616d0000b273835ff206c1878ab8392bdbffab67616d0000b273915d0e6e8a58ff78925de272ab67616d0000b273947b5cc535d76394a2d98e37",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27301ce8a5dd46ede9882f68ee5ab67616d0000b273835ff206c1878ab8392bdbffab67616d0000b273915d0e6e8a58ff78925de272ab67616d0000b273947b5cc535d76394a2d98e37",
+                "width": 60
+            }
+        ],
+        "name": "Jazz piano examples",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NiwwMDE1ZDdkNTM2NDg1M2VhNGE4MzVkZmM4N2MwMDIwNWE2NmQ2YjBh",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2t8JKWp4eao7XuhEWkg1Xr/tracks",
+            "total": 5
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2t8JKWp4eao7XuhEWkg1Xr"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/1dHe1Oml8TlKnSQF5Bpks8"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1dHe1Oml8TlKnSQF5Bpks8",
+        "id": "1dHe1Oml8TlKnSQF5Bpks8",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660eab67616d0000b273cb474d056615c2c9b49bb4e6",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660eab67616d0000b273cb474d056615c2c9b49bb4e6",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660eab67616d0000b273cb474d056615c2c9b49bb4e6",
+                "width": 60
+            }
+        ],
+        "name": "Holidays",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MTcsNGNjN2Y0Yjk2YzM4ZDZlMGYyYWEzNzkwODg3YmNkNTIzNzg1ZWI3NA==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1dHe1Oml8TlKnSQF5Bpks8/tracks",
+            "total": 16
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1dHe1Oml8TlKnSQF5Bpks8"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6vtxvjvAjzlxQEaR9lJFuO"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6vtxvjvAjzlxQEaR9lJFuO",
+        "id": "6vtxvjvAjzlxQEaR9lJFuO",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b2737dcc4d585c525dc7c6176ecbab67616d0000b273bc49247648f020f493c3449c",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b2737dcc4d585c525dc7c6176ecbab67616d0000b273bc49247648f020f493c3449c",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b2737dcc4d585c525dc7c6176ecbab67616d0000b273bc49247648f020f493c3449c",
+                "width": 60
+            }
+        ],
+        "name": "Sampled Songs",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NSxjMWI0MGE0NjcyZmUzMzg3ODg1NzdmYTM5NTE0NjZhMzI2NzJkODVi",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6vtxvjvAjzlxQEaR9lJFuO/tracks",
+            "total": 4
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6vtxvjvAjzlxQEaR9lJFuO"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7oSUWbSNCt8Xlb6xGw63tE"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7oSUWbSNCt8Xlb6xGw63tE",
+        "id": "7oSUWbSNCt8Xlb6xGw63tE",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2731bf20a9677d4f67c1bc06bceab67616d0000b273210dbb988be90592f4e0a4bdab67616d0000b27334362676667a4322838ccc97ab67616d0000b273b4910b03d64de42d39df86e8",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2731bf20a9677d4f67c1bc06bceab67616d0000b273210dbb988be90592f4e0a4bdab67616d0000b27334362676667a4322838ccc97ab67616d0000b273b4910b03d64de42d39df86e8",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2731bf20a9677d4f67c1bc06bceab67616d0000b273210dbb988be90592f4e0a4bdab67616d0000b27334362676667a4322838ccc97ab67616d0000b273b4910b03d64de42d39df86e8",
+                "width": 60
+            }
+        ],
+        "name": "Summer 2022",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NDQsNDk4YjFlMTVlYmRlZTczZTQ0YmIyMTNlNTZhNTMxM2Y3NDUxODI5Yg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7oSUWbSNCt8Xlb6xGw63tE/tracks",
+            "total": 39
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7oSUWbSNCt8Xlb6xGw63tE"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/727rvT3B5GciIZDtAWNnZx"
+        },
+        "href": "https://api.spotify.com/v1/playlists/727rvT3B5GciIZDtAWNnZx",
+        "id": "727rvT3B5GciIZDtAWNnZx",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2731448c3a92e28193fcff2f32fab67616d0000b27360de86e634f2bd4d1364797eab67616d0000b2736d4ca33845b5199e54c3997aab67616d0000b2737955a7d9d5998317da3fbb04",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2731448c3a92e28193fcff2f32fab67616d0000b27360de86e634f2bd4d1364797eab67616d0000b2736d4ca33845b5199e54c3997aab67616d0000b2737955a7d9d5998317da3fbb04",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2731448c3a92e28193fcff2f32fab67616d0000b27360de86e634f2bd4d1364797eab67616d0000b2736d4ca33845b5199e54c3997aab67616d0000b2737955a7d9d5998317da3fbb04",
+                "width": 60
+            }
+        ],
+        "name": "Chill",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NTIsZWM0MDM3MTg1NTY2OWFhZmRmNDFjZWQxNWFjNjBmODYxNzQ0ZjEyZQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/727rvT3B5GciIZDtAWNnZx/tracks",
+            "total": 51
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:727rvT3B5GciIZDtAWNnZx"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/0EMQRAvE8slM9p6qgBLouJ"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0EMQRAvE8slM9p6qgBLouJ",
+        "id": "0EMQRAvE8slM9p6qgBLouJ",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273d5d3421fa3d280bee4ea97acab67616d0000b273ebc61ee6b5e1462faa9cd9f2",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273d5d3421fa3d280bee4ea97acab67616d0000b273ebc61ee6b5e1462faa9cd9f2",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273d5d3421fa3d280bee4ea97acab67616d0000b273ebc61ee6b5e1462faa9cd9f2",
+                "width": 60
+            }
+        ],
+        "name": "chill club vibes",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjgsMTI3OWViYTQwNmM0MzRmMDcyYmY3MGFhYmFhNzk5OGJkMjAxNjU3Ng==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/0EMQRAvE8slM9p6qgBLouJ/tracks",
+            "total": 27
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0EMQRAvE8slM9p6qgBLouJ"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/1036jobAcvvPfjEkvmuRnp"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1036jobAcvvPfjEkvmuRnp",
+        "id": "1036jobAcvvPfjEkvmuRnp",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b273a29c326b8c1f54e690347baaab67616d0000b273dcb69247d2feacab26205e88",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b273a29c326b8c1f54e690347baaab67616d0000b273dcb69247d2feacab26205e88",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b273a29c326b8c1f54e690347baaab67616d0000b273dcb69247d2feacab26205e88",
+                "width": 60
+            }
+        ],
+        "name": "New songs",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjgsYTZjNTdiNmVmMTM5NDAyNTA0YjIyZDVjOTdiZGUyYzM1MDNiMTg0MQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1036jobAcvvPfjEkvmuRnp/tracks",
+            "total": 52
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1036jobAcvvPfjEkvmuRnp"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/17WbxPtKWQ4KMsbnJ3XIdB"
+        },
+        "href": "https://api.spotify.com/v1/playlists/17WbxPtKWQ4KMsbnJ3XIdB",
+        "id": "17WbxPtKWQ4KMsbnJ3XIdB",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27305d1d66b615a74ee2c65c725ab67616d0000b2733fbdf9b837e48a8a17a36f28ab67616d0000b273448848f5f2fe2f37e78ce980ab67616d0000b27368db4b081db9b8a63483e052",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27305d1d66b615a74ee2c65c725ab67616d0000b2733fbdf9b837e48a8a17a36f28ab67616d0000b273448848f5f2fe2f37e78ce980ab67616d0000b27368db4b081db9b8a63483e052",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27305d1d66b615a74ee2c65c725ab67616d0000b2733fbdf9b837e48a8a17a36f28ab67616d0000b273448848f5f2fe2f37e78ce980ab67616d0000b27368db4b081db9b8a63483e052",
+                "width": 60
+            }
+        ],
+        "name": "R&B",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MTAsYzQ1ZjU4YTQ1MGU5MDAxYTQ2ODRjODYyMzFjZGQ5N2I3ZThhZTNmMw==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/17WbxPtKWQ4KMsbnJ3XIdB/tracks",
+            "total": 9
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:17WbxPtKWQ4KMsbnJ3XIdB"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7wF2k0RncoFTTzwX0AamWk"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7wF2k0RncoFTTzwX0AamWk",
+        "id": "7wF2k0RncoFTTzwX0AamWk",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27314021e9ab9da5813bc6791cbab67616d0000b2735eedc4901818fe24d8645672ab67616d0000b2738c3f2e6605a6c7b0625e7e1aab67616d0000b273fc83644fcb2ea84f3209fb11",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27314021e9ab9da5813bc6791cbab67616d0000b2735eedc4901818fe24d8645672ab67616d0000b2738c3f2e6605a6c7b0625e7e1aab67616d0000b273fc83644fcb2ea84f3209fb11",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27314021e9ab9da5813bc6791cbab67616d0000b2735eedc4901818fe24d8645672ab67616d0000b2738c3f2e6605a6c7b0625e7e1aab67616d0000b273fc83644fcb2ea84f3209fb11",
+                "width": 60
+            }
+        ],
+        "name": "Dolly Parton and others",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MzYsNzI0OWE3MzY1NWVkMjFjNmE2ZjM3ZDM0YWZmYWNjNjZkOGRmOGVkNg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7wF2k0RncoFTTzwX0AamWk/tracks",
+            "total": 33
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7wF2k0RncoFTTzwX0AamWk"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/77ybMmQpo88XwssNa0IqD4"
+        },
+        "href": "https://api.spotify.com/v1/playlists/77ybMmQpo88XwssNa0IqD4",
+        "id": "77ybMmQpo88XwssNa0IqD4",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27350aa87e1dea05ba3155bbbb2ab67616d0000b27360ac497aab1809e0d3e17274ab67616d0000b27388c09fd0323c731376e772feab67616d0000b2739f70e0076b5cf278570379b9",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27350aa87e1dea05ba3155bbbb2ab67616d0000b27360ac497aab1809e0d3e17274ab67616d0000b27388c09fd0323c731376e772feab67616d0000b2739f70e0076b5cf278570379b9",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27350aa87e1dea05ba3155bbbb2ab67616d0000b27360ac497aab1809e0d3e17274ab67616d0000b27388c09fd0323c731376e772feab67616d0000b2739f70e0076b5cf278570379b9",
+                "width": 60
+            }
+        ],
+        "name": "November 2021",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjIsNmYyNTI5NmMwMjNhZWYwMGNmYzEzNmFjMDkzNTNmM2I5ZjI2N2VhYg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/77ybMmQpo88XwssNa0IqD4/tracks",
+            "total": 21
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:77ybMmQpo88XwssNa0IqD4"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/0za5GxzQcgrYV2f3r9Uqba"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0za5GxzQcgrYV2f3r9Uqba",
+        "id": "0za5GxzQcgrYV2f3r9Uqba",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b2732592befc6c3a540db07497e4ab67616d0000b2738ba64df86793ffdb09cb4f5b",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b2732592befc6c3a540db07497e4ab67616d0000b2738ba64df86793ffdb09cb4f5b",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b2732592befc6c3a540db07497e4ab67616d0000b2738ba64df86793ffdb09cb4f5b",
+                "width": 60
+            }
+        ],
+        "name": "September 2021",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjIsYjdhY2UyMDNkOWU3ODVmYzkwNDYxM2E1NzFlMTk3MzAwNzRiNjliNg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/0za5GxzQcgrYV2f3r9Uqba/tracks",
+            "total": 19
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0za5GxzQcgrYV2f3r9Uqba"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7rRXgqiVZyDdhdB2vB2isw"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7rRXgqiVZyDdhdB2vB2isw",
+        "id": "7rRXgqiVZyDdhdB2vB2isw",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b2734df3245f26298a1579ecc321ab67616d0000b273664034dd80e91b28f773598d",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b2734df3245f26298a1579ecc321ab67616d0000b273664034dd80e91b28f773598d",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b2734df3245f26298a1579ecc321ab67616d0000b273664034dd80e91b28f773598d",
+                "width": 60
+            }
+        ],
+        "name": "june 2021",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjIsMDI5NzhkMGE1NWZhZjc1NzI2MjNmZTdiNzZjMjAwYjg5Y2I3MmM5Yg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7rRXgqiVZyDdhdB2vB2isw/tracks",
+            "total": 18
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7rRXgqiVZyDdhdB2vB2isw"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7lA7xRlf9FheHyjDcGThxu"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7lA7xRlf9FheHyjDcGThxu",
+        "id": "7lA7xRlf9FheHyjDcGThxu",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2730ab6aab0a1c1ba69393883e7ab67616d0000b2732d3e7c2cfc04615fec0efbcfab67616d0000b2739e7e0d0fcd1a557553de43e0ab67616d0000b273f0d04f55ec62c4c52733b927",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2730ab6aab0a1c1ba69393883e7ab67616d0000b2732d3e7c2cfc04615fec0efbcfab67616d0000b2739e7e0d0fcd1a557553de43e0ab67616d0000b273f0d04f55ec62c4c52733b927",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2730ab6aab0a1c1ba69393883e7ab67616d0000b2732d3e7c2cfc04615fec0efbcfab67616d0000b2739e7e0d0fcd1a557553de43e0ab67616d0000b273f0d04f55ec62c4c52733b927",
+                "width": 60
+            }
+        ],
+        "name": "🍓🍊🥭🥝",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MTAwLDMwOTgwMDI3Y2M1MGM1OGFlMzliYzM1OTMyNTg0NWFhM2Y0NjdlOTQ=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7lA7xRlf9FheHyjDcGThxu/tracks",
+            "total": 88
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7lA7xRlf9FheHyjDcGThxu"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6S6bEnjqM1KQwiVpLDTqmu"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6S6bEnjqM1KQwiVpLDTqmu",
+        "id": "6S6bEnjqM1KQwiVpLDTqmu",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273341a47b9de6f523f1969e9a2ab67616d0000b2736d79c6a1b7e13ec8dcbce1a1ab67616d0000b273990ad240daffccde77bd70d1ab67616d0000b273bb8032c740c738b770b81d30",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273341a47b9de6f523f1969e9a2ab67616d0000b2736d79c6a1b7e13ec8dcbce1a1ab67616d0000b273990ad240daffccde77bd70d1ab67616d0000b273bb8032c740c738b770b81d30",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273341a47b9de6f523f1969e9a2ab67616d0000b2736d79c6a1b7e13ec8dcbce1a1ab67616d0000b273990ad240daffccde77bd70d1ab67616d0000b273bb8032c740c738b770b81d30",
+                "width": 60
+            }
+        ],
+        "name": "redorangeyellow - october 2020",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MzQsOWFmNjk2ZTEyYzRlMGUwYTFmZjUxZjNiNGVmYThkOWRhODIwOWI5ZQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6S6bEnjqM1KQwiVpLDTqmu/tracks",
+            "total": 26
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6S6bEnjqM1KQwiVpLDTqmu"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/3uuuRYkkrXEFyde2dYXFKZ"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3uuuRYkkrXEFyde2dYXFKZ",
+        "id": "3uuuRYkkrXEFyde2dYXFKZ",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2735f35df5a6f586bdc55ab73e2ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2735f35df5a6f586bdc55ab73e2ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2735f35df5a6f586bdc55ab73e2ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695",
+                "width": 60
+            }
+        ],
+        "name": "july 2020",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjQsZjYzNDgyOTkyNzk1ZjQyMDZiNTNhMmU3NjhiYzY0MzZmYjNjNTdiNQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/3uuuRYkkrXEFyde2dYXFKZ/tracks",
+            "total": 22
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3uuuRYkkrXEFyde2dYXFKZ"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6kWdP0eRlkOsHqTABZJKvq"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6kWdP0eRlkOsHqTABZJKvq",
+        "id": "6kWdP0eRlkOsHqTABZJKvq",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b27365caf90b1cae8f7e52cf15b3ab67616d0000b273f3bab806b0e18292ff86beeb",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b27365caf90b1cae8f7e52cf15b3ab67616d0000b273f3bab806b0e18292ff86beeb",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b27365caf90b1cae8f7e52cf15b3ab67616d0000b273f3bab806b0e18292ff86beeb",
+                "width": 60
+            }
+        ],
+        "name": "june 2020",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjMsZTk5NDZmNGY1MTcxYWEyNTg3ODQwOWJiNmM2YTMyZjQzNzkzYmViOQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6kWdP0eRlkOsHqTABZJKvq/tracks",
+            "total": 21
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6kWdP0eRlkOsHqTABZJKvq"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/0D1PW0JlyNpqMIF2eZyeAe"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0D1PW0JlyNpqMIF2eZyeAe",
+        "id": "0D1PW0JlyNpqMIF2eZyeAe",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27367136d7919a1dc6a51ce3dafab67616d0000b2736b7c4b562d4af67d7534d30aab67616d0000b27378579404bfe78cd573f230eaab67616d0000b273fe3bc02e8644d5345a77f34f",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27367136d7919a1dc6a51ce3dafab67616d0000b2736b7c4b562d4af67d7534d30aab67616d0000b27378579404bfe78cd573f230eaab67616d0000b273fe3bc02e8644d5345a77f34f",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27367136d7919a1dc6a51ce3dafab67616d0000b2736b7c4b562d4af67d7534d30aab67616d0000b27378579404bfe78cd573f230eaab67616d0000b273fe3bc02e8644d5345a77f34f",
+                "width": 60
+            }
+        ],
+        "name": "april 2020",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MzEsNzkxZTE1ZDBkYjQzMGYzMjYxMjU0MWFlYjZiMjhhMDYwYmViNTliYw==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/0D1PW0JlyNpqMIF2eZyeAe/tracks",
+            "total": 25
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0D1PW0JlyNpqMIF2eZyeAe"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/38PNbzdoDVxviGBU4bhGIS"
+        },
+        "href": "https://api.spotify.com/v1/playlists/38PNbzdoDVxviGBU4bhGIS",
+        "id": "38PNbzdoDVxviGBU4bhGIS",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2736d87f7b4c9ef7218c07df53cab67616d0000b273937af329667311f4b2831616ab67616d0000b273efc6988972cb04105f002cd4ab67616d0000b273fcc74aed3297b9d26ed18e6e",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2736d87f7b4c9ef7218c07df53cab67616d0000b273937af329667311f4b2831616ab67616d0000b273efc6988972cb04105f002cd4ab67616d0000b273fcc74aed3297b9d26ed18e6e",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2736d87f7b4c9ef7218c07df53cab67616d0000b273937af329667311f4b2831616ab67616d0000b273efc6988972cb04105f002cd4ab67616d0000b273fcc74aed3297b9d26ed18e6e",
+                "width": 60
+            }
+        ],
+        "name": "workout",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "ODYsMjliNzNhNDFlNjZiZDkwOGViMjI2ZTMyZjI4ZTUxMjQ1MGZkZmI1NQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/38PNbzdoDVxviGBU4bhGIS/tracks",
+            "total": 75
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:38PNbzdoDVxviGBU4bhGIS"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/0pwXUfwxJp2koT7AkgZa02"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0pwXUfwxJp2koT7AkgZa02",
+        "id": "0pwXUfwxJp2koT7AkgZa02",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273090e0adddb9fba320620be61ab67616d0000b2732abcc266597eb46f897a8666ab67616d0000b27344d18d3c0362e8617e498f67ab67616d0000b273f838ae4b9b22f2d15f29f3cc",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273090e0adddb9fba320620be61ab67616d0000b2732abcc266597eb46f897a8666ab67616d0000b27344d18d3c0362e8617e498f67ab67616d0000b273f838ae4b9b22f2d15f29f3cc",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273090e0adddb9fba320620be61ab67616d0000b2732abcc266597eb46f897a8666ab67616d0000b27344d18d3c0362e8617e498f67ab67616d0000b273f838ae4b9b22f2d15f29f3cc",
+                "width": 60
+            }
+        ],
+        "name": "january 2020🍾",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NDYsZGE3YTY2ZDg2Yzc0OWMzOWQ0ODEwMzkyYTY0MjZlNjZmYTU1NWZjMQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/0pwXUfwxJp2koT7AkgZa02/tracks",
+            "total": 40
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0pwXUfwxJp2koT7AkgZa02"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/1AY2w3s9BZQuvSfOhhTwDw"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1AY2w3s9BZQuvSfOhhTwDw",
+        "id": "1AY2w3s9BZQuvSfOhhTwDw",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2738583df1a14bea9175f9ac520ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2738583df1a14bea9175f9ac520ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2738583df1a14bea9175f9ac520ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55",
+                "width": 60
+            }
+        ],
+        "name": "pop princess 👸🏻",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NTYsMDU1Mzk1MjFjZDBhNmJjOTkyNjNmYzg0ZjhmYzgzYmNlM2U2MjVmYw==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1AY2w3s9BZQuvSfOhhTwDw/tracks",
+            "total": 45
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1AY2w3s9BZQuvSfOhhTwDw"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/2JWLcrgVzA6fmso5dKdSPU"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2JWLcrgVzA6fmso5dKdSPU",
+        "id": "2JWLcrgVzA6fmso5dKdSPU",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273402c29b3061991464b3ba428ab67616d0000b2737a777277cbb26614047bc823ab67616d0000b2738b188a74cf751d00e8ad99f2ab67616d0000b273aaba065944cd82a6f15c86b6",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273402c29b3061991464b3ba428ab67616d0000b2737a777277cbb26614047bc823ab67616d0000b2738b188a74cf751d00e8ad99f2ab67616d0000b273aaba065944cd82a6f15c86b6",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273402c29b3061991464b3ba428ab67616d0000b2737a777277cbb26614047bc823ab67616d0000b2738b188a74cf751d00e8ad99f2ab67616d0000b273aaba065944cd82a6f15c86b6",
+                "width": 60
+            }
+        ],
+        "name": "pumpkin spice playlist - october 2019",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NzgsM2ZhZmI3N2JjMDRiZGEyYjM1NGRlYjAwZDlmMDVkZjAzYWI2NDM0Yg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2JWLcrgVzA6fmso5dKdSPU/tracks",
+            "total": 80
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2JWLcrgVzA6fmso5dKdSPU"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6AMwtmem1xWHTJYAJZmWnm"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6AMwtmem1xWHTJYAJZmWnm",
+        "id": "6AMwtmem1xWHTJYAJZmWnm",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2731e71a5deeece2726ee057818ab67616d0000b273911ef35f75422d0482cec8bfab67616d0000b273a04f2586a29cc643063de900ab67616d0000b273e787cffec20aa2a396a61647",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2731e71a5deeece2726ee057818ab67616d0000b273911ef35f75422d0482cec8bfab67616d0000b273a04f2586a29cc643063de900ab67616d0000b273e787cffec20aa2a396a61647",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2731e71a5deeece2726ee057818ab67616d0000b273911ef35f75422d0482cec8bfab67616d0000b273a04f2586a29cc643063de900ab67616d0000b273e787cffec20aa2a396a61647",
+                "width": 60
+            }
+        ],
+        "name": "dancing in september 2019",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjcsZWZmZDY0MGRjODBiYjg4NWU1MGM0MDU4OWFjNGQwNjAwN2M1OTY1ZQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6AMwtmem1xWHTJYAJZmWnm/tracks",
+            "total": 23
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6AMwtmem1xWHTJYAJZmWnm"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/1ZjwfhcRLiaD9SI5q8l5F8"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1ZjwfhcRLiaD9SI5q8l5F8",
+        "id": "1ZjwfhcRLiaD9SI5q8l5F8",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b273b5d9c8de465654c20d77305cab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273e08b1250db5f75643f1508c9",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b273b5d9c8de465654c20d77305cab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273e08b1250db5f75643f1508c9",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b273b5d9c8de465654c20d77305cab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273e08b1250db5f75643f1508c9",
+                "width": 60
+            }
+        ],
+        "name": "august 🌹2019",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjMsZGE0YWI2ZDM1OTE1OTI0Y2E5MGEyYzc4MmY1MzZmYjViZjVhMGI1NQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1ZjwfhcRLiaD9SI5q8l5F8/tracks",
+            "total": 17
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1ZjwfhcRLiaD9SI5q8l5F8"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/2BYrnCsgTsyPxq69Sl3KQF"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2BYrnCsgTsyPxq69Sl3KQF",
+        "id": "2BYrnCsgTsyPxq69Sl3KQF",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273456f28858603774693ccd632ab67616d0000b27391b31078c799a3fbb05dd180ab67616d0000b273cccb973e9ff7440fbaf8485eab67616d0000b273e08b1250db5f75643f1508c9",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273456f28858603774693ccd632ab67616d0000b27391b31078c799a3fbb05dd180ab67616d0000b273cccb973e9ff7440fbaf8485eab67616d0000b273e08b1250db5f75643f1508c9",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273456f28858603774693ccd632ab67616d0000b27391b31078c799a3fbb05dd180ab67616d0000b273cccb973e9ff7440fbaf8485eab67616d0000b273e08b1250db5f75643f1508c9",
+                "width": 60
+            }
+        ],
+        "name": "journaling playlist 🌱",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NjYsYzFlNDFhNjJlOTM1YTM3MWZjMjFiOWI4OTkzMzAxZjg1MjFhOTBjZg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2BYrnCsgTsyPxq69Sl3KQF/tracks",
+            "total": 59
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2BYrnCsgTsyPxq69Sl3KQF"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/3o5OKCZe0JV3r4jGy2cPWk"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3o5OKCZe0JV3r4jGy2cPWk",
+        "id": "3o5OKCZe0JV3r4jGy2cPWk",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273340315da78e1e41dd69439b8ab67616d0000b273524aa1b58c9b19480d8ee703ab67616d0000b273691253f50c8d0c3a2d52363fab67616d0000b273a5d8f6d5fabff4612e9b5fe5",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273340315da78e1e41dd69439b8ab67616d0000b273524aa1b58c9b19480d8ee703ab67616d0000b273691253f50c8d0c3a2d52363fab67616d0000b273a5d8f6d5fabff4612e9b5fe5",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273340315da78e1e41dd69439b8ab67616d0000b273524aa1b58c9b19480d8ee703ab67616d0000b273691253f50c8d0c3a2d52363fab67616d0000b273a5d8f6d5fabff4612e9b5fe5",
+                "width": 60
+            }
+        ],
+        "name": "july 2019",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MzEsY2U2NGNhNGIyNDNjNmZmNzA1YmE4NzlhYTI4ZTE2Zjg0N2RlYzdkOA==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/3o5OKCZe0JV3r4jGy2cPWk/tracks",
+            "total": 28
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3o5OKCZe0JV3r4jGy2cPWk"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6qK8mDDxfik0TeQpTRlW7d"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6qK8mDDxfik0TeQpTRlW7d",
+        "id": "6qK8mDDxfik0TeQpTRlW7d",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2731e838c3997685abe372238daab67616d0000b273b9a02d37913e09b8b33a4384ab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273fb4278cf3d557dc89ca80ad5",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2731e838c3997685abe372238daab67616d0000b273b9a02d37913e09b8b33a4384ab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273fb4278cf3d557dc89ca80ad5",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2731e838c3997685abe372238daab67616d0000b273b9a02d37913e09b8b33a4384ab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273fb4278cf3d557dc89ca80ad5",
+                "width": 60
+            }
+        ],
+        "name": "it's gonna be may 2019",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NDUsODcyYjA2Mzg3NmI0MGZkMjViZDEwYjI2ZjU2NTI5YmY1YzU1ODUwNw==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6qK8mDDxfik0TeQpTRlW7d/tracks",
+            "total": 43
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6qK8mDDxfik0TeQpTRlW7d"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/4TvsdXFBrUaCaX0TkIagOf"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4TvsdXFBrUaCaX0TkIagOf",
+        "id": "4TvsdXFBrUaCaX0TkIagOf",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2730a60fb0deda858270cca82eeab67616d0000b27356ac7b86e090f307e218e9c8ab67616d0000b27395d1d98c5176e4f982bd73d6ab67616d0000b273c802775235748dd21e1c6b12",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2730a60fb0deda858270cca82eeab67616d0000b27356ac7b86e090f307e218e9c8ab67616d0000b27395d1d98c5176e4f982bd73d6ab67616d0000b273c802775235748dd21e1c6b12",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2730a60fb0deda858270cca82eeab67616d0000b27356ac7b86e090f307e218e9c8ab67616d0000b27395d1d98c5176e4f982bd73d6ab67616d0000b273c802775235748dd21e1c6b12",
+                "width": 60
+            }
+        ],
+        "name": "road trip",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MjMxLGU3YWQyZGZkMWRlMjk4OTM1MzUwZjQzZDhmM2YyZmZjYzI3YjlkYzE=",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4TvsdXFBrUaCaX0TkIagOf/tracks",
+            "total": 170
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4TvsdXFBrUaCaX0TkIagOf"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/2zuB9BDHoRfnn12DdA4lL3"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2zuB9BDHoRfnn12DdA4lL3",
+        "id": "2zuB9BDHoRfnn12DdA4lL3",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734db8fdd180552dc97a2b21ccab67616d0000b273736993b4bb038ffe947d9995ab67616d0000b27376165991d7aeecce3634f554ab67616d0000b273c8362e77dfec429e6db1b58f",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734db8fdd180552dc97a2b21ccab67616d0000b273736993b4bb038ffe947d9995ab67616d0000b27376165991d7aeecce3634f554ab67616d0000b273c8362e77dfec429e6db1b58f",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734db8fdd180552dc97a2b21ccab67616d0000b273736993b4bb038ffe947d9995ab67616d0000b27376165991d7aeecce3634f554ab67616d0000b273c8362e77dfec429e6db1b58f",
+                "width": 60
+            }
+        ],
+        "name": "april🌫2019",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NTcsODRmNDk5ZDExYWMwYmNkYjBlMjAyNzBkZTA2Zjc2ZDczZjUzYTBhYg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2zuB9BDHoRfnn12DdA4lL3/tracks",
+            "total": 47
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2zuB9BDHoRfnn12DdA4lL3"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/5nZfizi0t1iysLHeYA4icc"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5nZfizi0t1iysLHeYA4icc",
+        "id": "5nZfizi0t1iysLHeYA4icc",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273013c00ee367dd85396f79c82ab67616d0000b2732a7db835b912dc5014bd37f4ab67616d0000b27356ac7b86e090f307e218e9c8ab67616d0000b273a0b780c23fc3c19bd412b234",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273013c00ee367dd85396f79c82ab67616d0000b2732a7db835b912dc5014bd37f4ab67616d0000b27356ac7b86e090f307e218e9c8ab67616d0000b273a0b780c23fc3c19bd412b234",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273013c00ee367dd85396f79c82ab67616d0000b2732a7db835b912dc5014bd37f4ab67616d0000b27356ac7b86e090f307e218e9c8ab67616d0000b273a0b780c23fc3c19bd412b234",
+                "width": 60
+            }
+        ],
+        "name": "march 🍀2019",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "ODMsNDk2MTNiNjAyNDk3Yzk5YTRlNmMxMTk5OGFjMGFlMjA3ZGI4ZTcyZA==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/5nZfizi0t1iysLHeYA4icc/tracks",
+            "total": 56
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5nZfizi0t1iysLHeYA4icc"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/4JCeb6PDZ7w5EgikfbESQj"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4JCeb6PDZ7w5EgikfbESQj",
+        "id": "4JCeb6PDZ7w5EgikfbESQj",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273cc04a01b9069278c09d970d7ab67616d0000b273d6c9b06173aa0faf1edbae66ab67616d0000b273fa3cc9f9454d17f753267dc8",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273cc04a01b9069278c09d970d7ab67616d0000b273d6c9b06173aa0faf1edbae66ab67616d0000b273fa3cc9f9454d17f753267dc8",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273cc04a01b9069278c09d970d7ab67616d0000b273d6c9b06173aa0faf1edbae66ab67616d0000b273fa3cc9f9454d17f753267dc8",
+                "width": 60
+            }
+        ],
+        "name": "february 2019 🌬",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "ODcsYTczMWQ5YjNlYWNiYzhkOTZhNzFhMTU3ZjUyNzY5ZjFjNTljMjVhNQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4JCeb6PDZ7w5EgikfbESQj/tracks",
+            "total": 63
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4JCeb6PDZ7w5EgikfbESQj"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/0sAHygsyKzElFXzLcZYf0V"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0sAHygsyKzElFXzLcZYf0V",
+        "id": "0sAHygsyKzElFXzLcZYf0V",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b273bf7d271b8f3051af3cf0bf55ab67616d0000b273d54f042ed0bf664a5f3fa256ab67616d0000b273faabc5df8c19df039aa2a7aa",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b273bf7d271b8f3051af3cf0bf55ab67616d0000b273d54f042ed0bf664a5f3fa256ab67616d0000b273faabc5df8c19df039aa2a7aa",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b273bf7d271b8f3051af3cf0bf55ab67616d0000b273d54f042ed0bf664a5f3fa256ab67616d0000b273faabc5df8c19df039aa2a7aa",
+                "width": 60
+            }
+        ],
+        "name": "january 2019",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NTQsZjczZTM4NGY1NTg3Y2JmYTgyOWM5NGRmZjZmOWE5MTNlNDUwM2ZkZA==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/0sAHygsyKzElFXzLcZYf0V/tracks",
+            "total": 46
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0sAHygsyKzElFXzLcZYf0V"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/2TIspL1OM87MHwNnKw9Hzd"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2TIspL1OM87MHwNnKw9Hzd",
+        "id": "2TIspL1OM87MHwNnKw9Hzd",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b2736b34e77755ef57726a3bb4b4ab67616d0000b273f6f4f00f66ef04a9010b493b",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b2736b34e77755ef57726a3bb4b4ab67616d0000b273f6f4f00f66ef04a9010b493b",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b2736b34e77755ef57726a3bb4b4ab67616d0000b273f6f4f00f66ef04a9010b493b",
+                "width": 60
+            }
+        ],
+        "name": "november 🌫2018",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NTIsYWE0NzY5ZmI2NDRkM2NhOGMyOWU5Y2QzYzRlMzEwMjhiNWRmYWUwYw==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/2TIspL1OM87MHwNnKw9Hzd/tracks",
+            "total": 48
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2TIspL1OM87MHwNnKw9Hzd"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/1xcvp1otQZsNxAj6zZAhzX"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1xcvp1otQZsNxAj6zZAhzX",
+        "id": "1xcvp1otQZsNxAj6zZAhzX",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273272ac98b56f8507a068b0ed4ab67616d0000b2735ea1a511549bc05ff20fdedfab67616d0000b2738b52c6b9bc4e43d873869699ab67616d0000b27391da3a85ddea2d2ec4c7fd78",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273272ac98b56f8507a068b0ed4ab67616d0000b2735ea1a511549bc05ff20fdedfab67616d0000b2738b52c6b9bc4e43d873869699ab67616d0000b27391da3a85ddea2d2ec4c7fd78",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273272ac98b56f8507a068b0ed4ab67616d0000b2735ea1a511549bc05ff20fdedfab67616d0000b2738b52c6b9bc4e43d873869699ab67616d0000b27391da3a85ddea2d2ec4c7fd78",
+                "width": 60
+            }
+        ],
+        "name": "october🎃2018",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NDYsOTVjMjE5ZmRjMmU4ZDY2MDg2OTk4NzU5ZmRjMzc5NGMyZDk1MDBkZQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1xcvp1otQZsNxAj6zZAhzX/tracks",
+            "total": 42
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1xcvp1otQZsNxAj6zZAhzX"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/080mQkkq9vjctnQZWoeV7r"
+        },
+        "href": "https://api.spotify.com/v1/playlists/080mQkkq9vjctnQZWoeV7r",
+        "id": "080mQkkq9vjctnQZWoeV7r",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273022b4010e20659300f42c375ab67616d0000b27333fe2fd4f0114da43ec85611ab67616d0000b273b0c5f5f182ce6239151f31e8ab67616d0000b273fd5492bc0e804b6a2583e6d3",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273022b4010e20659300f42c375ab67616d0000b27333fe2fd4f0114da43ec85611ab67616d0000b273b0c5f5f182ce6239151f31e8ab67616d0000b273fd5492bc0e804b6a2583e6d3",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273022b4010e20659300f42c375ab67616d0000b27333fe2fd4f0114da43ec85611ab67616d0000b273b0c5f5f182ce6239151f31e8ab67616d0000b273fd5492bc0e804b6a2583e6d3",
+                "width": 60
+            }
+        ],
+        "name": "🙁",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "ODQsN2ZiYTU4ZjkwNzhmOGZlYzRmNmZiMjk2NTZlZTY3ZGQ2YjI0YWRlZQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/080mQkkq9vjctnQZWoeV7r/tracks",
+            "total": 77
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:080mQkkq9vjctnQZWoeV7r"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6qmu2lDbKyedeAfNMgJqFp"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6qmu2lDbKyedeAfNMgJqFp",
+        "id": "6qmu2lDbKyedeAfNMgJqFp",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2732e35d25eb7288830d5540484ab67616d0000b2738e1fa66c1a8f12076378cfb3ab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273d673976fd5e81a97c19dd44e",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2732e35d25eb7288830d5540484ab67616d0000b2738e1fa66c1a8f12076378cfb3ab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273d673976fd5e81a97c19dd44e",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2732e35d25eb7288830d5540484ab67616d0000b2738e1fa66c1a8f12076378cfb3ab67616d0000b273c3af0c2355c24ed7023cd394ab67616d0000b273d673976fd5e81a97c19dd44e",
+                "width": 60
+            }
+        ],
+        "name": "september🍁2018",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NDgsNTZhYzZhZmFlNWYxZDE0ZTlhMTQ2MWQzYTM1ZDFhZDk1Y2E3ZTdlMw==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6qmu2lDbKyedeAfNMgJqFp/tracks",
+            "total": 40
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6qmu2lDbKyedeAfNMgJqFp"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/1cr7eqLR0NHaTXXtd1O1Mc"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1cr7eqLR0NHaTXXtd1O1Mc",
+        "id": "1cr7eqLR0NHaTXXtd1O1Mc",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273e06efb1191c9c4e1c072c668ab67616d0000b273f5a142c922b1a826f239099c",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273e06efb1191c9c4e1c072c668ab67616d0000b273f5a142c922b1a826f239099c",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273e06efb1191c9c4e1c072c668ab67616d0000b273f5a142c922b1a826f239099c",
+                "width": 60
+            }
+        ],
+        "name": "august 🌙2018",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NDAsNzNkNmY1YTFkNzJmZTQ3ZTBmMTNmOTVkNDA4NWMzZTA0YWM2NjVkNg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/1cr7eqLR0NHaTXXtd1O1Mc/tracks",
+            "total": 36
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1cr7eqLR0NHaTXXtd1O1Mc"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/4rDaZ14XZTH8EMFoMMrreN"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4rDaZ14XZTH8EMFoMMrreN",
+        "id": "4rDaZ14XZTH8EMFoMMrreN",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273505bf2eddb6fe5bd646ec372ab67616d0000b2736848a9b9ca40c8ee49a9f60eab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273c802775235748dd21e1c6b12",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273505bf2eddb6fe5bd646ec372ab67616d0000b2736848a9b9ca40c8ee49a9f60eab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273c802775235748dd21e1c6b12",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273505bf2eddb6fe5bd646ec372ab67616d0000b2736848a9b9ca40c8ee49a9f60eab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273c802775235748dd21e1c6b12",
+                "width": 60
+            }
+        ],
+        "name": "july🍦2018",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NDAsN2VjMTZiYTZkYmIyNmFjNTc0YzcwZmE4OGVkZTg5Y2JlMmMxNjExOQ==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4rDaZ14XZTH8EMFoMMrreN/tracks",
+            "total": 33
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4rDaZ14XZTH8EMFoMMrreN"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/6lkjPwb4TnvqCzZPYkOt3k"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6lkjPwb4TnvqCzZPYkOt3k",
+        "id": "6lkjPwb4TnvqCzZPYkOt3k",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b2735c89d6b956a48181c4e11c2cab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273bbabc3f41a7949b81293aed4",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b2735c89d6b956a48181c4e11c2cab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273bbabc3f41a7949b81293aed4",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b2735c89d6b956a48181c4e11c2cab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273bbabc3f41a7949b81293aed4",
+                "width": 60
+            }
+        ],
+        "name": "june 🌱2018",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MzEsNDY5ZTM1NDQ1YzkxYWQ0MGVlMTNjMDJhNjQyNzJlMTJkMjdlOThhZA==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/6lkjPwb4TnvqCzZPYkOt3k/tracks",
+            "total": 22
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6lkjPwb4TnvqCzZPYkOt3k"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7ycj6lfTytcWumumzW3fuv"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7ycj6lfTytcWumumzW3fuv",
+        "id": "7ycj6lfTytcWumumzW3fuv",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27323a1613112c1ecf946f51177ab67616d0000b2732bdcb339402ebd78651f09c8ab67616d0000b273600efbba21caa56ca777bd03ab67616d0000b273b1c4b76e23414c9f20242268",
+                "width": 640
+            },
+            {
+                "height": 300,
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27323a1613112c1ecf946f51177ab67616d0000b2732bdcb339402ebd78651f09c8ab67616d0000b273600efbba21caa56ca777bd03ab67616d0000b273b1c4b76e23414c9f20242268",
+                "width": 300
+            },
+            {
+                "height": 60,
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27323a1613112c1ecf946f51177ab67616d0000b2732bdcb339402ebd78651f09c8ab67616d0000b273600efbba21caa56ca777bd03ab67616d0000b273b1c4b76e23414c9f20242268",
+                "width": 60
+            }
+        ],
+        "name": "may ☀️🌸🌻2018",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "NTUsZjA1NTZjZTIyOWNkZWM5OThmNTQ4ZmIxZjA4N2Y0YWJiMjg4NjRhZg==",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7ycj6lfTytcWumumzW3fuv/tracks",
+            "total": 52
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7ycj6lfTytcWumumzW3fuv"
+    }
+]
