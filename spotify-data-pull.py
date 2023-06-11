@@ -104,14 +104,13 @@ def create_tracklist_json(playlist_data, BASE_URL, headers):
 
     return all_pl_tracks, playlist_track_ids
 
-def get_artist_genres(all_pl_tracks, BASE_URL, headers):
+def get_artists(all_pl_tracks, BASE_URL, headers):
     artist_ids = get_artist_ids(all_pl_tracks)
     num_artist_ids = len(artist_ids)
     max_artists = 50
     num_api_calls = math.ceil(num_artist_ids / max_artists)
 
-    artist_genres = []
-
+    json_artist_data = {}
     for i in range(num_api_calls):
         start_index = i * 50
         end_index = (i + 1) * 50
@@ -121,12 +120,17 @@ def get_artist_genres(all_pl_tracks, BASE_URL, headers):
 
         if r.status_code == 200:
             json_artist_data = r.json()
-            for artist in json_artist_data['artists']:
-                artist_lookup = {'artist_id':artist['id'], 'genres':artist['genres']}
-                artist_genres.append(artist_lookup)
         else:
             display_api_error_details(r)
 
+    return json_artist_data
+
+def get_artist_genres(json_artist_data):
+    artist_genres = []
+
+    for artist in json_artist_data['artists']:
+        artist_lookup = {'artist_id':artist['id'], 'genres':artist['genres']}
+        artist_genres.append(artist_lookup)
     return artist_genres
 
 def get_artist_ids(all_pl_tracks):
@@ -157,7 +161,6 @@ def flatten_playlist_tracks_ids_json(playlist_track_ids):
 
     return playlist_tracks
 
-
 def write_json_to_file(data, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
@@ -183,7 +186,7 @@ def main():
         #playlists = get_my_playlists(BASE_URL, headers)
 
         # write raw playlist api output to file
-        #write_json_to_file(playlists, 'playlist_api_data.json')
+        # write_json_to_file(playlists, 'playlist_api_data.json')
 
         # Opening JSON file
         f = open('playlist_api_data.json')
@@ -194,8 +197,8 @@ def main():
         playlist_data = process_playlists(playlists)
         all_pl_tracks, playlist_track_ids = create_tracklist_json(playlist_data, BASE_URL, headers)
 
-
-        artist_genres = get_artist_genres(all_pl_tracks,BASE_URL, headers)
+        artists_json = get_artists(all_pl_tracks,BASE_URL, headers)
+        artist_genres = get_artist_genres(artists_json)
         write_json_to_file(artist_genres, 'artist_genre_api_data.json')
 
         artist_genres_f = flatten_artist_genre_json(artist_genres)
@@ -206,7 +209,6 @@ def main():
 
         # TODO Create json object for unique tracks with playlist references
         # TODO Create json data to track tracks and all added at dates
-        #TODO update to pull data from Spotify and dump data to file
         # TODO update to read data from file dump
 
 
