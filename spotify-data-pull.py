@@ -3,9 +3,11 @@ import json
 import re
 import math
 import csv
+from itertools import chain, starmap
 
 def get_api_token():
     """Retrieve the API token from Spotify."""
+    print('retrieving API token')
     # open file with credentials to access Spotify API
     creds_file = open('.creds.json', 'r')
     creds = json.load(creds_file)
@@ -41,27 +43,30 @@ def display_api_error_details(response):
     print('Error details: {description}'.format(description=response_data['error_description']))
 
 def get_my_playlists(BASE_URL, headers):
-    """Return collection of playlists as json objects retrieved from the Spotify API.
+    """Return collection of playlists as json objects from the Spotify API.
     
     Keyword arguments
     BASE_URL -- The base url for all Spotify API requests
     headers -- API request headers including bearer token.
     """
+    print('retrieving playlists')
     user_id = '1258359139'
 
     # GET request
     r = requests.get(BASE_URL + 'users/' + user_id + '/playlists?limit=40', headers=headers)
     r = r.json()
+
     playlists = r['items']
 
     return playlists
 
-def process_playlists(playlists):
-    """Return playlist data as json object (playlist_ids) including cleaned playlist name.
+def get_playlist_list(playlists):
+    """Return playlist data as list (playlist_ids).
     
     Keyword arguments
     playlists: A list of JSON objects with raw playlist data.
     """
+    print('creating playlist list')
     playlist_ids = []
     for playlist in playlists:
         pl_obj = {}
@@ -74,8 +79,12 @@ def process_playlists(playlists):
 
 
 def get_playlist_tracks(playlist_id, BASE_URL, headers):
+    """
+    Get the tracks from a playlist.
+    playlist_id: The ID of the playlist to get tracks from.
+    """
+    print('retrieving playlist tracks for playlist id: ',playlist_id)
     # define what fields I want from the API
-    # fields = 'items(added_at,track(album(!available_markets,images),artists,duration_ms,explicit,external_urls,href,id,name,popularity,preview_url,track,type))'
     fields = 'items(added_at,track(artists,duration_ms,explicit,external_urls,href,id,name,popularity,preview_url,track,type))'
     r = requests.get(BASE_URL + 'playlists/' + playlist_id + '/tracks?fields={items}'.format(items=fields), headers=headers)
 
@@ -88,50 +97,18 @@ def get_playlist_tracks(playlist_id, BASE_URL, headers):
     return {}
 
 def create_tracklist_json(playlist_data, BASE_URL, headers):
+    """
+    Given a list of playlist ids, retrieve the tracks for each playlist and return them as a list
+    """
     all_pl_tracks = []
-    playlist_track_ids = []
     for playlist_obj in playlist_data:
-        playlist_id = playlist_obj['playlist_id']
         tracks =  get_playlist_tracks(playlist_obj['playlist_id'],BASE_URL,headers)
 
-        track_ids = []
         for track in tracks:
             track['playlist_id'] = playlist_obj['playlist_id']
             all_pl_tracks.append(track)
-            track_ids.append(track['track']['id'])
-        track_lookup =  {'playlist_id':playlist_obj['playlist_id'],'track_ids':track_ids}
-        playlist_track_ids.append(track_lookup)
 
-    return all_pl_tracks, playlist_track_ids
-
-def get_artists(all_pl_tracks, BASE_URL, headers):
-    artist_ids = get_artist_ids(all_pl_tracks)
-    num_artist_ids = len(artist_ids)
-    max_artists = 50
-    num_api_calls = math.ceil(num_artist_ids / max_artists)
-
-    json_artist_data = {}
-    for i in range(num_api_calls):
-        start_index = i * 50
-        end_index = (i + 1) * 50
-        request_artist_ids = artist_ids[start_index:end_index]
-        artist_id_str = ','.join(request_artist_ids)
-        r = requests.get(BASE_URL + 'artists?ids=' + artist_id_str, headers=headers)
-
-        if r.status_code == 200:
-            json_artist_data = r.json()
-        else:
-            display_api_error_details(r)
-
-    return json_artist_data
-
-def get_artist_genres(json_artist_data):
-    artist_genres = []
-
-    for artist in json_artist_data['artists']:
-        artist_lookup = {'artist_id':artist['id'], 'genres':artist['genres']}
-        artist_genres.append(artist_lookup)
-    return artist_genres
+    return all_pl_tracks
 
 def get_artist_ids(all_pl_tracks):
     artist_ids = []
@@ -142,7 +119,44 @@ def get_artist_ids(all_pl_tracks):
                 artist_ids.append(artist['id'])
     return artist_ids
 
-def flatten_artist_genre_json(artist_genres_json):
+def get_artists(all_pl_tracks, BASE_URL, headers):
+    '''Retrieve artists from Spotify APIs
+    
+    '''
+    artist_ids = get_artist_ids(all_pl_tracks)
+    num_artist_ids = len(artist_ids)
+    max_artists = 50
+    num_api_calls = math.ceil(num_artist_ids / max_artists)
+
+    artists_json = []
+    for i in range(num_api_calls):
+        start_index = i * 50
+        end_index = (i + 1) * 50
+        request_artist_ids = artist_ids[start_index:end_index]
+        artist_id_str = ','.join(request_artist_ids)
+        print('retrieving artist data for: ',artist_id_str)
+        r = requests.get(BASE_URL + 'artists?ids=' + artist_id_str, headers=headers)
+
+        if r.status_code == 200:
+            artist_resp_body = r.json()
+            artist_data = artist_resp_body["artists"]
+            for artist in artist_data:
+                artists_json.append(artist)
+        else:
+            display_api_error_details(r)
+    
+    print('finished retrieving artist data')
+    return artists_json
+
+def get_artist_genres(json_artist_data):
+    artist_genres = []
+
+    for artist in json_artist_data:
+        artist_lookup = {'artist_id':artist['id'], 'genres':artist['genres']}
+        artist_genres.append(artist_lookup)
+    return artist_genres
+
+def create_artist_genre_lookup(artist_genres_json):
     genre_list = []
     genre_list.append(['artist_id','genre'])
     for artist in artist_genres_json:
@@ -150,6 +164,13 @@ def flatten_artist_genre_json(artist_genres_json):
             single_genre = [artist['artist_id'],genre]
             genre_list.append(single_genre)
     return genre_list
+
+def create_artist_table(artists_json,field_list):
+    for artist in artists_json:
+        row = []
+        for field in field_list:
+            val = artist.get(field)
+            print(field, " ", val)
 
 def flatten_playlist_tracks_ids_json(playlist_track_ids):
     playlist_tracks = []
@@ -160,6 +181,38 @@ def flatten_playlist_tracks_ids_json(playlist_track_ids):
             playlist_tracks.append(track_id)
 
     return playlist_tracks
+
+def flatten_json_iterative_solution(dictionary):
+    """Flatten a nested json file
+    from: https://towardsdatascience.com/how-to-flatten-deeply-nested-json-objects-in-non-recursive-elegant-python-55f96533103d
+    """
+
+    def unpack(parent_key, parent_value):
+        """Unpack one level of nesting in json file"""
+        # Unpack one level only!!!
+        
+        if isinstance(parent_value, dict):
+            for key, value in parent_value.items():
+                temp1 = parent_key + '_' + key
+                yield temp1, value
+        elif isinstance(parent_value, list):
+            i = 0 
+            for value in parent_value:
+                temp2 = parent_key + '_'+str(i) 
+                i += 1
+                yield temp2, value
+        else:
+            yield parent_key, parent_value 
+            # Keep iterating until the termination condition is satisfied
+    while True:
+        # Keep unpacking the json file until all values are atomic elements (not dictionary or list)
+        dictionary = dict(chain.from_iterable(starmap(unpack, dictionary.items())))
+        # Terminate condition: not any value in the json file is dictionary or list
+        if not any(isinstance(value, dict) for value in dictionary.values()) and \
+            not any(isinstance(value, list) for value in dictionary.values()):
+            break
+
+    return dictionary   
 
 def write_json_to_file(data, filename):
     with open(filename, 'w', encoding='utf-8') as f:
@@ -176,41 +229,49 @@ def write_to_csv(data, filename):
     print('wrote ', filename, ' to file')
 
 def main():
+    BASE_URL = 'https://api.spotify.com/v1/'
     access_token = get_api_token()
 
     if access_token != '':
         headers = {
             'Authorization': 'Bearer {token}'.format(token=access_token)
         }
-        BASE_URL = 'https://api.spotify.com/v1/'
-        #playlists = get_my_playlists(BASE_URL, headers)
+        playlists = get_my_playlists(BASE_URL, headers)
 
-        # write raw playlist api output to file
-        # write_json_to_file(playlists, 'playlist_api_data.json')
+        # write raw playlist api output to file so you can use old data if api fails
+        write_json_to_file(playlists, 'playlist_api_data.json')
 
-        # Opening JSON file
+
+        # Open JSON file
         f = open('playlist_api_data.json')
         playlists = json.load(f)
-        f.close()       
+        f.close() 
 
         # process playlist data
-        playlist_data = process_playlists(playlists)
-        all_pl_tracks, playlist_track_ids = create_tracklist_json(playlist_data, BASE_URL, headers)
+        playlist_data = get_playlist_list(playlists)
 
-        artists_json = get_artists(all_pl_tracks,BASE_URL, headers)
-        artist_genres = get_artist_genres(artists_json)
-        write_json_to_file(artist_genres, 'artist_genre_api_data.json')
+        # get playlist tracks
+        all_pl_tracks = create_tracklist_json(playlist_data, BASE_URL, headers)
 
-        artist_genres_f = flatten_artist_genre_json(artist_genres)
-        playlist_track_f = flatten_playlist_tracks_ids_json(playlist_track_ids)
-        
-        write_to_csv(artist_genres_f,'artist_genres.csv')
-        write_to_csv(playlist_track_f,'playlist_track_lookup.csv')
+        # get artists from API
+        artists_obj_list = get_artists(all_pl_tracks,BASE_URL, headers)
+        #print(json.dumps(artists_json,indent=2))
+
+        #create_artist_table(artists_json,['id',''])
+        artists_json_flat =  flatten_json_iterative_solution(artists_obj_list [0])
+        print(json.dumps(artists_json_flat,indent=2))
+        # get artist genres API
+        artist_genres = get_artist_genres(artists_obj_list)
+
+        artist_genres_lookup = create_artist_genre_lookup(artist_genres)
+        write_to_csv(artist_genres_lookup,'artist_genres.csv')
+
+    else:
+        print('Failed to get access token from API. Exiting')
+        exit()
 
         # TODO Create json object for unique tracks with playlist references
         # TODO Create json data to track tracks and all added at dates
-        # TODO update to read data from file dump
-
 
 
 main()
