@@ -166,11 +166,15 @@ def create_artist_genre_lookup(artist_genres_json):
     return genre_list
 
 def create_artist_table(artists_json,field_list):
+    artist_table = [field_list]
     for artist in artists_json:
         row = []
         for field in field_list:
-            val = artist.get(field)
-            print(field, " ", val)
+            row.append(artist[field])
+        artist_table.append(row)
+
+    return artist_table
+            
 
 def flatten_playlist_tracks_ids_json(playlist_track_ids):
     playlist_tracks = []
@@ -255,11 +259,15 @@ def main():
 
         # get artists from API
         artists_obj_list = get_artists(all_pl_tracks,BASE_URL, headers)
-        #print(json.dumps(artists_json,indent=2))
+        
+        artists_f = []
+        for artist_obj in artists_obj_list:
+            flat = flatten_json_iterative_solution(artist_obj)
+            artists_f.append(flat)
 
-        #create_artist_table(artists_json,['id',''])
-        artists_json_flat =  flatten_json_iterative_solution(artists_obj_list [0])
-        print(json.dumps(artists_json_flat,indent=2))
+        artist_table = create_artist_table(artists_f,['id','name','followers_total','popularity','external_urls_spotify'])
+        write_to_csv(artist_table,'artists.csv')
+
         # get artist genres API
         artist_genres = get_artist_genres(artists_obj_list)
 
