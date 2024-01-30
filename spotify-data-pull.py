@@ -175,6 +175,19 @@ def create_artist_table(artists_json,field_list):
 
     return artist_table
             
+def create_tracklist_table(tracklist_json):
+    track_table = [['track_id','playlist_id','track_name','added_at','popularity','duration_ms','explicit']]
+    for track in tracklist_json:
+        row = [track['track']['id']
+            ,track['playlist_id']
+            ,track['track']['name']
+            ,track['added_at']
+            ,track['track']['popularity']
+            ,track['track']['duration_ms']
+            ,track['track']['explicit']]
+        track_table.append(row)
+    return track_table
+        
 
 def flatten_playlist_tracks_ids_json(playlist_track_ids):
     playlist_tracks = []
@@ -273,6 +286,9 @@ def main():
 
         artist_genres_lookup = create_artist_genre_lookup(artist_genres)
         write_to_csv(artist_genres_lookup,'artist_genres.csv')
+
+        track_table = create_tracklist_table(all_pl_tracks)
+        write_to_csv(track_table,'tracks.csv')
 
     else:
         print('Failed to get access token from API. Exiting')

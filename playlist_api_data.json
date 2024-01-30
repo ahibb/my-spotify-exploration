@@ -3,6 +3,78 @@
         "collaborative": false,
         "description": "",
         "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/7mGl5bOLbUBBblzu7zHXYh"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7mGl5bOLbUBBblzu7zHXYh",
+        "id": "7mGl5bOLbUBBblzu7zHXYh",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273f53ee1c95465eeb8662c86ec",
+                "width": 640
+            }
+        ],
+        "name": "drunk off the snake juice",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "Myw1YThjOWJmNTNhOGJjYzdjOTAwODJiNDY2NmVlNTRmYzNmYTJmMTk0",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/7mGl5bOLbUBBblzu7zHXYh/tracks",
+            "total": 2
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7mGl5bOLbUBBblzu7zHXYh"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/4SkP2EZ0enItSryROY3nVn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4SkP2EZ0enItSryROY3nVn",
+        "id": "4SkP2EZ0enItSryROY3nVn",
+        "images": [
+            {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27353eb9b16f8b247f12c63fb48",
+                "width": 640
+            }
+        ],
+        "name": "Classical",
+        "owner": {
+            "display_name": "Ariana Hibbard",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/1258359139"
+            },
+            "href": "https://api.spotify.com/v1/users/1258359139",
+            "id": "1258359139",
+            "type": "user",
+            "uri": "spotify:user:1258359139"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "MixiOWQxZjRhMzIwNmQ2YTgxMDkyNWE5YmM2M2QxMzAzYjA5MGIzOWEx",
+        "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/4SkP2EZ0enItSryROY3nVn/tracks",
+            "total": 1
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4SkP2EZ0enItSryROY3nVn"
+    },
+    {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
             "spotify": "https://open.spotify.com/playlist/7616W1uj1OqNPrCNJdUkCE"
         },
         "href": "https://api.spotify.com/v1/playlists/7616W1uj1OqNPrCNJdUkCE",
@@ -10,17 +82,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27358039b5147731b6e52202e46ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818f",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818fab67616d0000b273cd222052a2594be29a6616b5",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27358039b5147731b6e52202e46ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818f",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818fab67616d0000b273cd222052a2594be29a6616b5",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27358039b5147731b6e52202e46ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818f",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734aeaaeeb0755f1d8a8b51738ab67616d0000b27381fccd758776d16b87721b17ab67616d0000b273b0afb62b6cf63e92d42e818fab67616d0000b273cd222052a2594be29a6616b5",
                 "width": 60
             }
         ],
@@ -37,10 +109,10 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "MjQsZWM5N2RiYjM5MGVmNGZmMDQ0NTdlYWYwNGNjNGQ4MmFhMTM2ZWRhMg==",
+        "snapshot_id": "MzksMTMyYmU2M2NiYzRhMzU4OWVjZWQzN2VjMjc5ODM0ZTlkNGU2MjdiNA==",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/7616W1uj1OqNPrCNJdUkCE/tracks",
-            "total": 23
+            "total": 36
         },
         "type": "playlist",
         "uri": "spotify:playlist:7616W1uj1OqNPrCNJdUkCE"
@@ -102,17 +174,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660eab67616d0000b273cb474d056615c2c9b49bb4e6",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27330dc6027fd140c7ba68e900cab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660e",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660eab67616d0000b273cb474d056615c2c9b49bb4e6",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27330dc6027fd140c7ba68e900cab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660e",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660eab67616d0000b273cb474d056615c2c9b49bb4e6",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27330dc6027fd140c7ba68e900cab67616d0000b2734246e3158421f5abb75abc4fab67616d0000b2737dfe3f5630ef1fff1c76ec2aab67616d0000b273c97389ea48c660cc64ac660e",
                 "width": 60
             }
         ],
@@ -129,17 +201,17 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "MTcsNGNjN2Y0Yjk2YzM4ZDZlMGYyYWEzNzkwODg3YmNkNTIzNzg1ZWI3NA==",
+        "snapshot_id": "MjgsMWI2OTUwNjNlNjAwNDNiM2NmNzM3MjY2ZDQzOTUxYWRjZmQxOTlmYQ==",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/1dHe1Oml8TlKnSQF5Bpks8/tracks",
-            "total": 16
+            "total": 27
         },
         "type": "playlist",
         "uri": "spotify:playlist:1dHe1Oml8TlKnSQF5Bpks8"
     },
     {
         "collaborative": false,
-        "description": "",
+        "description": "This playlist has songs that are sampled and the songs that sample them",
         "external_urls": {
             "spotify": "https://open.spotify.com/playlist/6vtxvjvAjzlxQEaR9lJFuO"
         },
@@ -148,17 +220,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b2737dcc4d585c525dc7c6176ecbab67616d0000b273bc49247648f020f493c3449c",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b273bc49247648f020f493c3449cab67616d0000b273dc6f817ae16962058fa565ae",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b2737dcc4d585c525dc7c6176ecbab67616d0000b273bc49247648f020f493c3449c",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b273bc49247648f020f493c3449cab67616d0000b273dc6f817ae16962058fa565ae",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b2737dcc4d585c525dc7c6176ecbab67616d0000b273bc49247648f020f493c3449c",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27301f2778f38f1d536b06b507cab67616d0000b273208e39ad8455ab55649b20e9ab67616d0000b273bc49247648f020f493c3449cab67616d0000b273dc6f817ae16962058fa565ae",
                 "width": 60
             }
         ],
@@ -175,10 +247,10 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "NSxjMWI0MGE0NjcyZmUzMzg3ODg1NzdmYTM5NTE0NjZhMzI2NzJkODVi",
+        "snapshot_id": "MjEsYTA0NGE5M2MxMjNhNTBhYjVlM2VlODQyZjNjOWVjNDg2YWY1NjI5Yw==",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/6vtxvjvAjzlxQEaR9lJFuO/tracks",
-            "total": 4
+            "total": 14
         },
         "type": "playlist",
         "uri": "spotify:playlist:6vtxvjvAjzlxQEaR9lJFuO"
@@ -267,10 +339,10 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "NTIsZWM0MDM3MTg1NTY2OWFhZmRmNDFjZWQxNWFjNjBmODYxNzQ0ZjEyZQ==",
+        "snapshot_id": "NjIsMGNmNzAyOTdjMjliNjM0YWFhNDkzZmU1ODI1NDNjY2Y4OWFkNGI0MA==",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/727rvT3B5GciIZDtAWNnZx/tracks",
-            "total": 51
+            "total": 59
         },
         "type": "playlist",
         "uri": "spotify:playlist:727rvT3B5GciIZDtAWNnZx"
@@ -286,17 +358,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273d5d3421fa3d280bee4ea97acab67616d0000b273ebc61ee6b5e1462faa9cd9f2",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273c3d42ad004169e6bc292dff4ab67616d0000b273d5d3421fa3d280bee4ea97ac",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273d5d3421fa3d280bee4ea97acab67616d0000b273ebc61ee6b5e1462faa9cd9f2",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273c3d42ad004169e6bc292dff4ab67616d0000b273d5d3421fa3d280bee4ea97ac",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273d5d3421fa3d280bee4ea97acab67616d0000b273ebc61ee6b5e1462faa9cd9f2",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2733ddebb2dca9c72149d190b1dab67616d0000b2739ffe73daea062c94d00fa71bab67616d0000b273c3d42ad004169e6bc292dff4ab67616d0000b273d5d3421fa3d280bee4ea97ac",
                 "width": 60
             }
         ],
@@ -313,10 +385,10 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "MjgsMTI3OWViYTQwNmM0MzRmMDcyYmY3MGFhYmFhNzk5OGJkMjAxNjU3Ng==",
+        "snapshot_id": "MzEsNmJlZjU1YzI1NzYwOTk1MjgyMDhlZmE1OTFhNjNlODQ0NmFlMDI4OQ==",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/0EMQRAvE8slM9p6qgBLouJ/tracks",
-            "total": 27
+            "total": 30
         },
         "type": "playlist",
         "uri": "spotify:playlist:0EMQRAvE8slM9p6qgBLouJ"
@@ -332,17 +404,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b273a29c326b8c1f54e690347baaab67616d0000b273dcb69247d2feacab26205e88",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b2734689ef956902d601fa1d20baab67616d0000b273849a542baee180f4e450f6fd",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b273a29c326b8c1f54e690347baaab67616d0000b273dcb69247d2feacab26205e88",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b2734689ef956902d601fa1d20baab67616d0000b273849a542baee180f4e450f6fd",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b273a29c326b8c1f54e690347baaab67616d0000b273dcb69247d2feacab26205e88",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27312c2eefb1d28509c632d915dab67616d0000b273164220b8824cfbce3857d54aab67616d0000b2734689ef956902d601fa1d20baab67616d0000b273849a542baee180f4e450f6fd",
                 "width": 60
             }
         ],
@@ -405,10 +477,10 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "MTAsYzQ1ZjU4YTQ1MGU5MDAxYTQ2ODRjODYyMzFjZGQ5N2I3ZThhZTNmMw==",
+        "snapshot_id": "MTEsNGY5ZTY0OTAxN2NmNTJjMzU5ZTczYzFmMTA3NjBlMTZlZjJhNjA4ZA==",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/17WbxPtKWQ4KMsbnJ3XIdB/tracks",
-            "total": 9
+            "total": 10
         },
         "type": "playlist",
         "uri": "spotify:playlist:17WbxPtKWQ4KMsbnJ3XIdB"
@@ -516,17 +588,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b2732592befc6c3a540db07497e4ab67616d0000b2738ba64df86793ffdb09cb4f5b",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b27350ff982197b22c113e499d89ab67616d0000b2738ba64df86793ffdb09cb4f5b",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b2732592befc6c3a540db07497e4ab67616d0000b2738ba64df86793ffdb09cb4f5b",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b27350ff982197b22c113e499d89ab67616d0000b2738ba64df86793ffdb09cb4f5b",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b2732592befc6c3a540db07497e4ab67616d0000b2738ba64df86793ffdb09cb4f5b",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2ab67616d0000b2732292b6839098ad3cce212bb5ab67616d0000b27350ff982197b22c113e499d89ab67616d0000b2738ba64df86793ffdb09cb4f5b",
                 "width": 60
             }
         ],
@@ -562,17 +634,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b2734df3245f26298a1579ecc321ab67616d0000b273664034dd80e91b28f773598d",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b273664034dd80e91b28f773598dab67616d0000b273be841ba4bc24340152e3a79a",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b2734df3245f26298a1579ecc321ab67616d0000b273664034dd80e91b28f773598d",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b273664034dd80e91b28f773598dab67616d0000b273be841ba4bc24340152e3a79a",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b2734df3245f26298a1579ecc321ab67616d0000b273664034dd80e91b28f773598d",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2731359cc4a0aaa6aa6cc780294ab67616d0000b27317db30ce3f081d6818a8ad49ab67616d0000b273664034dd80e91b28f773598dab67616d0000b273be841ba4bc24340152e3a79a",
                 "width": 60
             }
         ],
@@ -635,10 +707,10 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "MTAwLDMwOTgwMDI3Y2M1MGM1OGFlMzliYzM1OTMyNTg0NWFhM2Y0NjdlOTQ=",
+        "snapshot_id": "MTEwLDE5MGIzMjhmMWU0MjI3NWU4MjVkYTIyYzhmM2YwYzRmYmNlZjQ2NzU=",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/7lA7xRlf9FheHyjDcGThxu/tracks",
-            "total": 88
+            "total": 96
         },
         "type": "playlist",
         "uri": "spotify:playlist:7lA7xRlf9FheHyjDcGThxu"
@@ -700,17 +772,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b2735f35df5a6f586bdc55ab73e2ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695ab67616d0000b273c46caa533865715c0a8b1024",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b2735f35df5a6f586bdc55ab73e2ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695ab67616d0000b273c46caa533865715c0a8b1024",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b2735f35df5a6f586bdc55ab73e2ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b273684543025b8324b1476214c2ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b27391f291c87b978bd3a9cec695ab67616d0000b273c46caa533865715c0a8b1024",
                 "width": 60
             }
         ],
@@ -746,17 +818,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b27365caf90b1cae8f7e52cf15b3ab67616d0000b273f3bab806b0e18292ff86beeb",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b273858b9fe130c23112125dd104ab67616d0000b273f3bab806b0e18292ff86beeb",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b27365caf90b1cae8f7e52cf15b3ab67616d0000b273f3bab806b0e18292ff86beeb",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b273858b9fe130c23112125dd104ab67616d0000b273f3bab806b0e18292ff86beeb",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b27365caf90b1cae8f7e52cf15b3ab67616d0000b273f3bab806b0e18292ff86beeb",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2733e0c22d13bc9b4044e90ab9fab67616d0000b27342565acff5721663f5f5d68cab67616d0000b273858b9fe130c23112125dd104ab67616d0000b273f3bab806b0e18292ff86beeb",
                 "width": 60
             }
         ],
@@ -930,17 +1002,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2738583df1a14bea9175f9ac520ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55ab67616d0000b273c35ea649223a519a9ad51ccf",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2738583df1a14bea9175f9ac520ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55ab67616d0000b273c35ea649223a519a9ad51ccf",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2738583df1a14bea9175f9ac520ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27306af802e2ea241b6ba1ce0f2ab67616d0000b2739478c87599550dd73bfa7e02ab67616d0000b273bf7d271b8f3051af3cf0bf55ab67616d0000b273c35ea649223a519a9ad51ccf",
                 "width": 60
             }
         ],
@@ -1141,10 +1213,10 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "NjYsYzFlNDFhNjJlOTM1YTM3MWZjMjFiOWI4OTkzMzAxZjg1MjFhOTBjZg==",
+        "snapshot_id": "NzMsN2NjZWFmNjI0NDUxOTg1MTY0OWZhZGZlNjEyOGJkNzEzMWVhZjk5NQ==",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/2BYrnCsgTsyPxq69Sl3KQF/tracks",
-            "total": 59
+            "total": 62
         },
         "type": "playlist",
         "uri": "spotify:playlist:2BYrnCsgTsyPxq69Sl3KQF"
@@ -1279,10 +1351,10 @@
         },
         "primary_color": null,
         "public": true,
-        "snapshot_id": "MjMxLGU3YWQyZGZkMWRlMjk4OTM1MzUwZjQzZDhmM2YyZmZjYzI3YjlkYzE=",
+        "snapshot_id": "MjM3LDQxYjQ4NzUwN2U5NGY3MTQ3MGIxZjk2YjJlNTY5ODI0YzM5MzAxMGU=",
         "tracks": {
             "href": "https://api.spotify.com/v1/playlists/4TvsdXFBrUaCaX0TkIagOf/tracks",
-            "total": 170
+            "total": 168
         },
         "type": "playlist",
         "uri": "spotify:playlist:4TvsdXFBrUaCaX0TkIagOf"
@@ -1390,17 +1462,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273cc04a01b9069278c09d970d7ab67616d0000b273d6c9b06173aa0faf1edbae66ab67616d0000b273fa3cc9f9454d17f753267dc8",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2732a6451bf50693f79b88e4954ab67616d0000b27349cda9eff8436fb7a0febc1cab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273fa3cc9f9454d17f753267dc8",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273cc04a01b9069278c09d970d7ab67616d0000b273d6c9b06173aa0faf1edbae66ab67616d0000b273fa3cc9f9454d17f753267dc8",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2732a6451bf50693f79b88e4954ab67616d0000b27349cda9eff8436fb7a0febc1cab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273fa3cc9f9454d17f753267dc8",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273cc04a01b9069278c09d970d7ab67616d0000b273d6c9b06173aa0faf1edbae66ab67616d0000b273fa3cc9f9454d17f753267dc8",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2732a6451bf50693f79b88e4954ab67616d0000b27349cda9eff8436fb7a0febc1cab67616d0000b273c428f67b4a9b7e1114dfc117ab67616d0000b273fa3cc9f9454d17f753267dc8",
                 "width": 60
             }
         ],
@@ -1482,17 +1554,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b2736b34e77755ef57726a3bb4b4ab67616d0000b273f6f4f00f66ef04a9010b493b",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b273f6f4f00f66ef04a9010b493bab67616d0000b273ff31fea9e45da56964dd1b7b",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b2736b34e77755ef57726a3bb4b4ab67616d0000b273f6f4f00f66ef04a9010b493b",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b273f6f4f00f66ef04a9010b493bab67616d0000b273ff31fea9e45da56964dd1b7b",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b2736b34e77755ef57726a3bb4b4ab67616d0000b273f6f4f00f66ef04a9010b493b",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b27323152d9337d6c57b116ed13aab67616d0000b2733224c12ed2921329e0f39a58ab67616d0000b273f6f4f00f66ef04a9010b493bab67616d0000b273ff31fea9e45da56964dd1b7b",
                 "width": 60
             }
         ],
@@ -1666,17 +1738,17 @@
         "images": [
             {
                 "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273e06efb1191c9c4e1c072c668ab67616d0000b273f5a142c922b1a826f239099c",
+                "url": "https://mosaic.scdn.co/640/ab67616d0000b2730bac075b28342898e062bddaab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273f5a142c922b1a826f239099c",
                 "width": 640
             },
             {
                 "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273e06efb1191c9c4e1c072c668ab67616d0000b273f5a142c922b1a826f239099c",
+                "url": "https://mosaic.scdn.co/300/ab67616d0000b2730bac075b28342898e062bddaab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273f5a142c922b1a826f239099c",
                 "width": 300
             },
             {
                 "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273e06efb1191c9c4e1c072c668ab67616d0000b273f5a142c922b1a826f239099c",
+                "url": "https://mosaic.scdn.co/60/ab67616d0000b2730bac075b28342898e062bddaab67616d0000b273b77a51f862ac3c57f049039eab67616d0000b273d04b0657298bd6401896de5eab67616d0000b273f5a142c922b1a826f239099c",
                 "width": 60
             }
         ],
@@ -1746,97 +1818,5 @@
         },
         "type": "playlist",
         "uri": "spotify:playlist:4rDaZ14XZTH8EMFoMMrreN"
-    },
-    {
-        "collaborative": false,
-        "description": "",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/6lkjPwb4TnvqCzZPYkOt3k"
-        },
-        "href": "https://api.spotify.com/v1/playlists/6lkjPwb4TnvqCzZPYkOt3k",
-        "id": "6lkjPwb4TnvqCzZPYkOt3k",
-        "images": [
-            {
-                "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b2735c89d6b956a48181c4e11c2cab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273bbabc3f41a7949b81293aed4",
-                "width": 640
-            },
-            {
-                "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b2735c89d6b956a48181c4e11c2cab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273bbabc3f41a7949b81293aed4",
-                "width": 300
-            },
-            {
-                "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b2734c79d5ec52a6d0302f3add25ab67616d0000b2735c89d6b956a48181c4e11c2cab67616d0000b273a47ee7a49c53ccdcb38dc874ab67616d0000b273bbabc3f41a7949b81293aed4",
-                "width": 60
-            }
-        ],
-        "name": "june 🌱2018",
-        "owner": {
-            "display_name": "Ariana Hibbard",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/1258359139"
-            },
-            "href": "https://api.spotify.com/v1/users/1258359139",
-            "id": "1258359139",
-            "type": "user",
-            "uri": "spotify:user:1258359139"
-        },
-        "primary_color": null,
-        "public": true,
-        "snapshot_id": "MzEsNDY5ZTM1NDQ1YzkxYWQ0MGVlMTNjMDJhNjQyNzJlMTJkMjdlOThhZA==",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/6lkjPwb4TnvqCzZPYkOt3k/tracks",
-            "total": 22
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:6lkjPwb4TnvqCzZPYkOt3k"
-    },
-    {
-        "collaborative": false,
-        "description": "",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/playlist/7ycj6lfTytcWumumzW3fuv"
-        },
-        "href": "https://api.spotify.com/v1/playlists/7ycj6lfTytcWumumzW3fuv",
-        "id": "7ycj6lfTytcWumumzW3fuv",
-        "images": [
-            {
-                "height": 640,
-                "url": "https://mosaic.scdn.co/640/ab67616d0000b27323a1613112c1ecf946f51177ab67616d0000b2732bdcb339402ebd78651f09c8ab67616d0000b273600efbba21caa56ca777bd03ab67616d0000b273b1c4b76e23414c9f20242268",
-                "width": 640
-            },
-            {
-                "height": 300,
-                "url": "https://mosaic.scdn.co/300/ab67616d0000b27323a1613112c1ecf946f51177ab67616d0000b2732bdcb339402ebd78651f09c8ab67616d0000b273600efbba21caa56ca777bd03ab67616d0000b273b1c4b76e23414c9f20242268",
-                "width": 300
-            },
-            {
-                "height": 60,
-                "url": "https://mosaic.scdn.co/60/ab67616d0000b27323a1613112c1ecf946f51177ab67616d0000b2732bdcb339402ebd78651f09c8ab67616d0000b273600efbba21caa56ca777bd03ab67616d0000b273b1c4b76e23414c9f20242268",
-                "width": 60
-            }
-        ],
-        "name": "may ☀️🌸🌻2018",
-        "owner": {
-            "display_name": "Ariana Hibbard",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/user/1258359139"
-            },
-            "href": "https://api.spotify.com/v1/users/1258359139",
-            "id": "1258359139",
-            "type": "user",
-            "uri": "spotify:user:1258359139"
-        },
-        "primary_color": null,
-        "public": true,
-        "snapshot_id": "NTUsZjA1NTZjZTIyOWNkZWM5OThmNTQ4ZmIxZjA4N2Y0YWJiMjg4NjRhZg==",
-        "tracks": {
-            "href": "https://api.spotify.com/v1/playlists/7ycj6lfTytcWumumzW3fuv/tracks",
-            "total": 52
-        },
-        "type": "playlist",
-        "uri": "spotify:playlist:7ycj6lfTytcWumumzW3fuv"
     }
 ]
