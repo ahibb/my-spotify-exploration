@@ -73,10 +73,17 @@ def get_playlist_list(playlists):
         pl_obj['playlist_id'] = playlist['id']
         pl_obj['owner_id'] = playlist['owner']['id']
         pl_obj['owner_name'] = playlist['owner']['display_name']
+        pl_obj['playlist_name'] = playlist['name']
         playlist_ids.append(pl_obj)
-    
+
     return playlist_ids
 
+def create_playlist_table(playlist_data):
+    playlist_table = [['playlist_id','playlist_name','owner_id','owner_name']]
+    for playlist in playlist_data:
+        row = [playlist['playlist_id'],playlist['playlist_name'],playlist['owner_id'],playlist['owner_name']]
+        playlist_table.append(row)
+    return playlist_table
 
 def get_playlist_tracks(playlist_id, BASE_URL, headers):
     """
@@ -187,7 +194,14 @@ def create_tracklist_table(tracklist_json):
             ,track['track']['explicit']]
         track_table.append(row)
     return track_table
-        
+
+def create_track_artist_lookup_table(tracklist_json):
+    track_artist_lookup = [['track_id','artist_id']]
+    for track in tracklist_json:
+        for artist in track['track']['artists']:
+            row = [track['track']['id'],artist['id']]
+            track_artist_lookup.append(row)
+    return track_artist_lookup
 
 def flatten_playlist_tracks_ids_json(playlist_track_ids):
     playlist_tracks = []
@@ -266,9 +280,14 @@ def main():
 
         # process playlist data
         playlist_data = get_playlist_list(playlists)
+        playlist_table = create_playlist_table(playlist_data)
+        write_to_csv(playlist_table,'playlists.csv')
 
         # get playlist tracks
         all_pl_tracks = create_tracklist_json(playlist_data, BASE_URL, headers)
+        artist_track_lookup_table = create_track_artist_lookup_table(all_pl_tracks)
+
+        write_to_csv(artist_track_lookup_table,'artist_track_lookup.csv')
 
         # get artists from API
         artists_obj_list = get_artists(all_pl_tracks,BASE_URL, headers)
