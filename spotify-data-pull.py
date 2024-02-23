@@ -53,10 +53,15 @@ def get_my_playlists(BASE_URL, headers):
     user_id = '1258359139'
 
     # GET request
-    r = requests.get(BASE_URL + 'users/' + user_id + '/playlists?limit=40', headers=headers)
-    r = r.json()
-
-    playlists = r['items']
+    url = BASE_URL + 'users/' + user_id + '/playlists?limit=40'
+    playlists = []
+    while url:
+        r = requests.get(url, headers=headers)
+        r = r.json()
+        url = r['next']
+        playlist_data = r['items']
+        for playlist in playlist_data:
+            playlists.append(playlist)
 
     return playlists
 
@@ -79,6 +84,8 @@ def get_playlist_list(playlists):
     return playlist_ids
 
 def create_playlist_table(playlist_data):
+    """Using a list of playlist objects, build a table (nested list) for the playlist data
+    """
     playlist_table = [['playlist_id','playlist_name','owner_id','owner_name']]
     for playlist in playlist_data:
         row = [playlist['playlist_id'],playlist['playlist_name'],playlist['owner_id'],playlist['owner_name']]
@@ -132,6 +139,8 @@ def get_artists(all_pl_tracks, BASE_URL, headers):
     '''
     artist_ids = get_artist_ids(all_pl_tracks)
     num_artist_ids = len(artist_ids)
+
+    print('number of artists: ',num_artist_ids)
     max_artists = 50
     num_api_calls = math.ceil(num_artist_ids / max_artists)
 
@@ -140,8 +149,9 @@ def get_artists(all_pl_tracks, BASE_URL, headers):
         start_index = i * 50
         end_index = (i + 1) * 50
         request_artist_ids = artist_ids[start_index:end_index]
+        request_artist_ids = list(filter(None, request_artist_ids))
         artist_id_str = ','.join(request_artist_ids)
-        print('retrieving artist data for: ',artist_id_str)
+        print('retrieving artist data for start_idx: ',start_index, ' to ',end_index)
         r = requests.get(BASE_URL + 'artists?ids=' + artist_id_str, headers=headers)
 
         if r.status_code == 200:
@@ -156,6 +166,9 @@ def get_artists(all_pl_tracks, BASE_URL, headers):
     return artists_json
 
 def get_artist_genres(json_artist_data):
+    """Build a lookup of the artist id and corresponding genre list using
+    the artist json data from the Spotify API.
+    """
     artist_genres = []
 
     for artist in json_artist_data:
@@ -300,7 +313,7 @@ def main():
         artist_table = create_artist_table(artists_f,['id','name','followers_total','popularity','external_urls_spotify'])
         write_to_csv(artist_table,'artists.csv')
 
-        # get artist genres API
+        # get artist genres
         artist_genres = get_artist_genres(artists_obj_list)
 
         artist_genres_lookup = create_artist_genre_lookup(artist_genres)
@@ -313,8 +326,6 @@ def main():
         print('Failed to get access token from API. Exiting')
         exit()
 
-        # TODO Create json object for unique tracks with playlist references
-        # TODO Create json data to track tracks and all added at dates
 
 
 main()

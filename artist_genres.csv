@@ -1,5 +1,15 @@
 artist_id,genre
 4E2rKHVDssGJm2SCDOMMJB,alternative r&b
+2RdwBSPQiwcmiDo9kixcl8,dance pop
+2RdwBSPQiwcmiDo9kixcl8,pop
+6OqhFYFJDnBBHas02HopPT,escape room
+6OqhFYFJDnBBHas02HopPT,hyper-rock
+6OqhFYFJDnBBHas02HopPT,japanese electropop
+4kYSro6naA4h99UJvo89HB,pop
+4kYSro6naA4h99UJvo89HB,rap
+4yiQZ8tQPux8cPriYMWUFP,dance pop
+4yiQZ8tQPux8cPriYMWUFP,pop
+0z4gvV4rjIZ9wHck67ucSV,dance pop
 526q7RxT5KA1VGeQ5GMSHO,british soundtrack
 526q7RxT5KA1VGeQ5GMSHO,orchestral soundtrack
 526q7RxT5KA1VGeQ5GMSHO,soundtrack
@@ -17,8 +27,6 @@ artist_id,genre
 6qgnBH6iDM91ipVXv28OMu,escape room
 6qgnBH6iDM91ipVXv28OMu,indie soul
 6qgnBH6iDM91ipVXv28OMu,lgbtq+ hip hop
-2RdwBSPQiwcmiDo9kixcl8,dance pop
-2RdwBSPQiwcmiDo9kixcl8,pop
 5YGY8feqx7naU7z4HrwZM6,pop
 1U1el3k54VvEUzo3ybLPlM,colombian pop
 4Gso3d4CscCijv0lmajZWs,pop rap
@@ -64,10 +72,12 @@ artist_id,genre
 6ueGR6SWhUJfvEhqkvMsVs,neo soul
 6ueGR6SWhUJfvEhqkvMsVs,r&b
 63XBtGSEZINSyXylZxEUbv,alternative r&b
+63XBtGSEZINSyXylZxEUbv,r&b
 5Vuvs6Py2JRU7WiFDVsI7J,alternative r&b
 5Vuvs6Py2JRU7WiFDVsI7J,r&b
 0GG2cWaonE4JPrjcCCQ1EG,electropop
 0GG2cWaonE4JPrjcCCQ1EG,indie soul
+0GG2cWaonE4JPrjcCCQ1EG,nu disco
 0GG2cWaonE4JPrjcCCQ1EG,uk dance
 0GG2cWaonE4JPrjcCCQ1EG,vapor soul
 7c0XG5cIJTrrAgEC3ULPiq,hip hop
@@ -199,8 +209,6 @@ artist_id,genre
 0urTpYCsixqZwgNTkPJOJ4,urban contemporary
 2cWZOOzeOm4WmBJRnD5R7I,pop
 2cWZOOzeOm4WmBJRnD5R7I,r&b
-4kYSro6naA4h99UJvo89HB,pop
-4kYSro6naA4h99UJvo89HB,rap
 6GI52t8N5F02MxU0g5U69P,blues rock
 6GI52t8N5F02MxU0g5U69P,classic rock
 6GI52t8N5F02MxU0g5U69P,mexican classic rock
@@ -299,7 +307,6 @@ artist_id,genre
 3fmMaLC5jjf2N4EC2kTx0u,escape room
 6PDLwWvgYNMfBRLqC1h5cJ,alternative r&b
 6PDLwWvgYNMfBRLqC1h5cJ,cali rap
-6PDLwWvgYNMfBRLqC1h5cJ,canadian hip hop
 07d5etnpjriczFBB8pxmRe,alternative r&b
 07d5etnpjriczFBB8pxmRe,chicago rap
 4LXBFNxqvOcdBVpbgKn6op,alternative r&b
@@ -383,6 +390,7 @@ artist_id,genre
 1Xyo4u8uXC1ZmMpatF05PJ,canadian pop
 1Xyo4u8uXC1ZmMpatF05PJ,pop
 3wws8s15DuuQWiG2xct414,boom bap
+3wws8s15DuuQWiG2xct414,chill abstract hip hop
 3sGyf3EDcvQ4PB9AGIg84M,afrofuturism
 3sGyf3EDcvQ4PB9AGIg84M,alternative r&b
 3sGyf3EDcvQ4PB9AGIg84M,psychedelic hip hop
@@ -415,6 +423,7 @@ artist_id,genre
 3M3wTTCDwicRubwMyHyEDy,electra
 3M3wTTCDwicRubwMyHyEDy,escape room
 3M3wTTCDwicRubwMyHyEDy,grimewave
+3M3wTTCDwicRubwMyHyEDy,hyperpop
 2RqrWplViWHSGLzlhmDcbt,alternative r&b
 2RqrWplViWHSGLzlhmDcbt,art pop
 2RqrWplViWHSGLzlhmDcbt,escape room
@@ -621,7 +630,6 @@ artist_id,genre
 36KsCCwgI0Dep97yVJWmkK,latin alternative
 2Otnykd696YidQYfEGVmNq,bachata
 2Otnykd696YidQYfEGVmNq,dominican pop
-2Otnykd696YidQYfEGVmNq,reggae en espanol
 4IVAbR2w4JJNJDDRFP3E83,atl hip hop
 4IVAbR2w4JJNJDDRFP3E83,melodic rap
 4IVAbR2w4JJNJDDRFP3E83,r&b
@@ -722,6 +730,7 @@ artist_id,genre
 0oBsnAC3fzYkTHF3bkfNx6,indie soul
 6d6ts87Fxm1EdULf4CaLw4,indie pop
 0iqCNJHozJhcjPDoX1EJ6a,modern indie pop
+3Vl9fyKMIdLMswk8ai3mm9,social media pop
 2AfU5LYBVCiCtuCCfM7uVX,underground hip hop
 2AcUPzkVWo81vumdzeLLRN,art pop
 2AcUPzkVWo81vumdzeLLRN,downtempo
@@ -802,8 +811,6 @@ artist_id,genre
 6icQOAFXDZKsumw3YXyusw,rap
 6icQOAFXDZKsumw3YXyusw,trap
 12trz2INGglrKMzLmg0y2C,indie r&b
-6OqhFYFJDnBBHas02HopPT,escape room
-6OqhFYFJDnBBHas02HopPT,japanese electropop
 1xcMOgFUM1IYZE22YjCvsL,alternative r&b
 1xcMOgFUM1IYZE22YjCvsL,art pop
 1xcMOgFUM1IYZE22YjCvsL,escape room
@@ -813,6 +820,7 @@ artist_id,genre
 1xcMOgFUM1IYZE22YjCvsL,vapor pop
 2HPiMwJktBXqakN0hnON2R,belgian pop
 6PfSUFtkMVoDkx4MQkzOi3,bubblegum bass
+6PfSUFtkMVoDkx4MQkzOi3,hyper-rock
 6PfSUFtkMVoDkx4MQkzOi3,hyperpop
 6PfSUFtkMVoDkx4MQkzOi3,proto-hyperpop
 2OaHYHb2XcFPvqL3VsyPzU,alternative r&b
@@ -1048,12 +1056,14 @@ artist_id,genre
 0C8ZW7ezQVs4URX5aX7Kqx,pop
 0C8ZW7ezQVs4URX5aX7Kqx,post-teen pop
 6PvScqSJuICxvoA3UDYPmu,canadian contemporary r&b
+6PvScqSJuICxvoA3UDYPmu,indie r&b
 1iNqsUDUraNWrj00bqssQG,hip hop
 1iNqsUDUraNWrj00bqssQG,pop rap
 1iNqsUDUraNWrj00bqssQG,rap
 6HCkJzbswOIc7Qc5TJ1n5l,indie soul
 6HCkJzbswOIc7Qc5TJ1n5l,neo r&b
 0YrtvWJMgSdVrk3SfNjTbx,alternative rock
+0YrtvWJMgSdVrk3SfNjTbx,canadian indie
 0YrtvWJMgSdVrk3SfNjTbx,chamber pop
 0YrtvWJMgSdVrk3SfNjTbx,indie rock
 0YrtvWJMgSdVrk3SfNjTbx,indietronica
@@ -1114,7 +1124,6 @@ artist_id,genre
 05oH07COxkXKIMt6mIPRee,r&b
 05oH07COxkXKIMt6mIPRee,urban contemporary
 7GaxyUddsPok8BuhxN6OUW,funk
-7GaxyUddsPok8BuhxN6OUW,motown
 7GaxyUddsPok8BuhxN6OUW,soul
 2uE66NiUti6Wpz90SD4eam,jazz trombone
 2uE66NiUti6Wpz90SD4eam,p funk
@@ -1261,6 +1270,7 @@ artist_id,genre
 7oMRcCu0OYSCtCyS3P37iC,uk dancehall
 7oMRcCu0OYSCtCyS3P37iC,uk hip hop
 360IAlyVv4PCEVjgyMZrxK,r&b
+360IAlyVv4PCEVjgyMZrxK,urban contemporary
 2Mu5NfyYm8n5iTomuKAEHl,alternative r&b
 2Mu5NfyYm8n5iTomuKAEHl,conscious hip hop
 2Mu5NfyYm8n5iTomuKAEHl,hip hop
@@ -1489,6 +1499,7 @@ artist_id,genre
 1anyVhU62p31KFi8MEzkbf,hip hop
 1anyVhU62p31KFi8MEzkbf,pop rap
 1anyVhU62p31KFi8MEzkbf,rap
+1anyVhU62p31KFi8MEzkbf,trap
 0hDjKSKjl1DC7ovYTDJHe8,singer-songwriter pop
 5xI4mPixKfrCCspATqbpy3,alternative r&b
 5xI4mPixKfrCCspATqbpy3,neo soul
@@ -1540,6 +1551,7 @@ artist_id,genre
 1EpyA68dKpjf7jXmQL88Hy,alternative r&b
 1EpyA68dKpjf7jXmQL88Hy,chicago rap
 2PU4qFehXQF7WnlFsJpBiJ,psychedelic hip hop
+4TrraAsitQKl821DQY42cZ,electropop
 4TrraAsitQKl821DQY42cZ,norwegian pop
 6mQfAAqZGBzIfrmlZCeaYT,disco
 6mQfAAqZGBzIfrmlZCeaYT,funk
@@ -1635,12 +1647,12 @@ artist_id,genre
 2IEnjZsVDEPKUTxNinyqba,neo r&b
 1ShZZUjkbXCjhwrb18BA8I,indie pop rap
 3tQx1LPXbsYjE9VwN1Peaa,indie pop rap
+3tQx1LPXbsYjE9VwN1Peaa,pop r&b
 3QTDHixorJelOLxoxcjqGx,alternative r&b
 3QTDHixorJelOLxoxcjqGx,la pop
 2NqeFgy0ual6Abk5hd0xxi,uk pop
 6cdcTRFv0nFBQZPmTLWhRh,rap dominicano
 6cdcTRFv0nFBQZPmTLWhRh,trap queen
-2sfC2KuIzmNQEtVordUuqq,indie electropop
 2retT7MFwHDVTeGKDdybEx,hip pop
 2retT7MFwHDVTeGKDdybEx,r&b
 2retT7MFwHDVTeGKDdybEx,urban contemporary
@@ -1708,6 +1720,7 @@ artist_id,genre
 3dkbV4qihUeMsqN4vBGg93,classic soul
 3dkbV4qihUeMsqN4vBGg93,funk
 3dkbV4qihUeMsqN4vBGg93,memphis soul
+3dkbV4qihUeMsqN4vBGg93,quiet storm
 3dkbV4qihUeMsqN4vBGg93,soul
 3dkbV4qihUeMsqN4vBGg93,soul blues
 3dkbV4qihUeMsqN4vBGg93,southern soul
@@ -1782,6 +1795,7 @@ artist_id,genre
 1OFOShsIbhy1l5x73yuVyB,dancehall queen
 4qBgvVog0wzW75IQ48mU7v,deep underground hip hop
 4qBgvVog0wzW75IQ48mU7v,indie pop rap
+4qBgvVog0wzW75IQ48mU7v,meme rap
 4qBgvVog0wzW75IQ48mU7v,pop rap
 6vXTefBL93Dj5IqAWq6OTv,hip hop
 6vXTefBL93Dj5IqAWq6OTv,pop rap
@@ -1796,3 +1810,916 @@ artist_id,genre
 2TLYSzGyVYkxAgYSCqUnQj,underground hip hop
 30AzZL0valZQ62OIQiFWvk,british soul
 30AzZL0valZQ62OIQiFWvk,neo soul
+66rDbD3tWR3M1uNuIaDAGx,alternative r&b
+66rDbD3tWR3M1uNuIaDAGx,uk contemporary r&b
+6fLrPFLWLSCrp7gcTZXcKb,indietronica
+6fLrPFLWLSCrp7gcTZXcKb,metropopolis
+5jAMCwdNHWr7JThxtMuEyy,pop dance
+5jAMCwdNHWr7JThxtMuEyy,pop edm
+3LjhVl7GzYsza1biQjTpaN,alt z
+3LjhVl7GzYsza1biQjTpaN,indie poptimism
+3LjhVl7GzYsza1biQjTpaN,pop
+5ZsFI1h6hIdQRw2ti0hz81,pop
+5ZsFI1h6hIdQRw2ti0hz81,uk pop
+0UWZUmn7sybxMCqrw9tGa7,colombian pop
+0UWZUmn7sybxMCqrw9tGa7,latin pop
+0UWZUmn7sybxMCqrw9tGa7,mexican pop
+0UWZUmn7sybxMCqrw9tGa7,rock en espanol
+2jw70GZXlAI8QzWeY2bgRc,canadian latin
+2jw70GZXlAI8QzWeY2bgRc,canadian pop
+2jw70GZXlAI8QzWeY2bgRc,dance pop
+2jw70GZXlAI8QzWeY2bgRc,pop
+21E3waRsmPlU7jZsS13rcj,dance pop
+21E3waRsmPlU7jZsS13rcj,pop
+21E3waRsmPlU7jZsS13rcj,r&b
+21E3waRsmPlU7jZsS13rcj,urban contemporary
+6PCMMSSuTf9iCVVxYru5XI,hip pop
+5ZS223C6JyBfXasXxrRqOk,r&b
+1WgXqy2Dd70QQOU7Ay074N,art pop
+1WgXqy2Dd70QQOU7Ay074N,norwegian pop
+5wPoxI5si3eJsYYwyXV4Wi,hip hop
+5wPoxI5si3eJsYYwyXV4Wi,virginia hip hop
+2P5sC9cVZDToPxyomzF1UH,conscious hip hop
+2P5sC9cVZDToPxyomzF1UH,hip hop
+2P5sC9cVZDToPxyomzF1UH,rap
+2HMZf6yC9JzK4BDAyNl2WE,deep talent show
+2HMZf6yC9JzK4BDAyNl2WE,native american contemporary
+1vyhD5VmyZ7KMfW5gqLgo5,reggaeton
+1vyhD5VmyZ7KMfW5gqLgo5,reggaeton colombiano
+1vyhD5VmyZ7KMfW5gqLgo5,trap latino
+1vyhD5VmyZ7KMfW5gqLgo5,urbano latino
+3J28FLi8jjXtUGWf69cP7I,channel pop
+3J28FLi8jjXtUGWf69cP7I,lds youth
+3J28FLi8jjXtUGWf69cP7I,viral pop
+4TFUM3dwVVxsJ6vCnMDVCb,bluegrass
+3UtfXMhd36NSwHMvWYuE8A,american folk revival
+3Q9WLyqkHw04V6DDtvPWwH,indie folk
+3Q9WLyqkHw04V6DDtvPWwH,new americana
+3Q9WLyqkHw04V6DDtvPWwH,stomp and holler
+3KQOgtRIeQVHdYFcNHKavs,southern soul
+0iOVhN3tnSvgDbcg25JoJb,jazz blues
+0iOVhN3tnSvgDbcg25JoJb,soul
+0iOVhN3tnSvgDbcg25JoJb,soul blues
+0iOVhN3tnSvgDbcg25JoJb,torch song
+0iOVhN3tnSvgDbcg25JoJb,vocal jazz
+3RwQ26hR2tJtA8F9p2n7jG,memphis soul
+3RwQ26hR2tJtA8F9p2n7jG,motown
+3RwQ26hR2tJtA8F9p2n7jG,soul
+7bvcQXJHkFiN1ppIN3q4fi,british soul
+7bvcQXJHkFiN1ppIN3q4fi,neo soul
+60df5JBRRPcnSpsIMxxwQm,classic soul
+60df5JBRRPcnSpsIMxxwQm,memphis soul
+60df5JBRRPcnSpsIMxxwQm,soul
+60df5JBRRPcnSpsIMxxwQm,soul blues
+60df5JBRRPcnSpsIMxxwQm,southern soul
+60df5JBRRPcnSpsIMxxwQm,vocal jazz
+3DiDSECUqqY1AuBP8qtaIa,neo soul
+3DiDSECUqqY1AuBP8qtaIa,pop
+3DiDSECUqqY1AuBP8qtaIa,r&b
+20wkVLutqVOYrc0kxFs7rA,canadian contemporary r&b
+6hnWRPzGGKiapVX1UCdEAC,classic soul
+6hnWRPzGGKiapVX1UCdEAC,soul
+6hnWRPzGGKiapVX1UCdEAC,vocal jazz
+1uiEZYehlNivdK3iQyAbye,indie soul
+1uiEZYehlNivdK3iQyAbye,jazz pop
+6LufpoVlIYKQCu9Gjpk8B7,black americana
+6LufpoVlIYKQCu9Gjpk8B7,funk
+6LufpoVlIYKQCu9Gjpk8B7,retro soul
+6LufpoVlIYKQCu9Gjpk8B7,soul
+0EodhzA6yW1bIdD5B4tcmJ,adult standards
+0EodhzA6yW1bIdD5B4tcmJ,easy listening
+0EodhzA6yW1bIdD5B4tcmJ,lounge
+0EodhzA6yW1bIdD5B4tcmJ,rock-and-roll
+0EodhzA6yW1bIdD5B4tcmJ,vocal jazz
+319yZVtYM9MBGqmSQnMyY6,brill building pop
+319yZVtYM9MBGqmSQnMyY6,classic rock
+319yZVtYM9MBGqmSQnMyY6,folk
+319yZVtYM9MBGqmSQnMyY6,folk rock
+319yZVtYM9MBGqmSQnMyY6,mellow gold
+319yZVtYM9MBGqmSQnMyY6,singer-songwriter
+319yZVtYM9MBGqmSQnMyY6,soft rock
+1c4rxrxy8eDLvMVL1DTiBe,r&b
+3ZJxEmjYZd5VOqZ8o3aXiL,alternative r&b
+4nts0oxMT67lVUoi5Kjxrb,soul
+4nts0oxMT67lVUoi5Kjxrb,soul blues
+4nts0oxMT67lVUoi5Kjxrb,southern soul
+46CH1Gp8l8QVly8bpG9JFG,funk
+46CH1Gp8l8QVly8bpG9JFG,neo soul
+46CH1Gp8l8QVly8bpG9JFG,quiet storm
+46CH1Gp8l8QVly8bpG9JFG,r&b
+46CH1Gp8l8QVly8bpG9JFG,smooth jazz
+46CH1Gp8l8QVly8bpG9JFG,soul
+46CH1Gp8l8QVly8bpG9JFG,urban contemporary
+0N5PyKJzS3M1XNlaCL7bbE,classic soul
+0N5PyKJzS3M1XNlaCL7bbE,memphis soul
+0N5PyKJzS3M1XNlaCL7bbE,soul
+0N5PyKJzS3M1XNlaCL7bbE,southern soul
+0IeB4swNmNetlaZUgdHqBX,dutch pop
+0IeB4swNmNetlaZUgdHqBX,dutch r&b
+0FrpdcVlJQqibaz5HfBUrL,disco
+0FrpdcVlJQqibaz5HfBUrL,funk
+0FrpdcVlJQqibaz5HfBUrL,motown
+0FrpdcVlJQqibaz5HfBUrL,p funk
+0FrpdcVlJQqibaz5HfBUrL,quiet storm
+0FrpdcVlJQqibaz5HfBUrL,soul
+0FrpdcVlJQqibaz5HfBUrL,synth funk
+6kXm2YCtdUOpRYNKeKhfue,hollywood
+68Uwx1d3EbjDJhYsLjqvIq,hollywood
+2ndyVAdV9UqF1XjyTJt484,gospel
+4lujUKeO6nQAJXpq37Epn7,neo r&b
+4lujUKeO6nQAJXpq37Epn7,soul
+7daPb40K64rRtF36wd3ZOk,broadway
+7daPb40K64rRtF36wd3ZOk,show tunes
+3DgcBA7P0ji5co7Z1Gfp2Q,broadway
+3DgcBA7P0ji5co7Z1Gfp2Q,show tunes
+73Np75Wv2tju61Eo9Zw4IR,hollywood
+73Np75Wv2tju61Eo9Zw4IR,movie tunes
+73Np75Wv2tju61Eo9Zw4IR,show tunes
+5VJN4jB6PqqEg4kJiAj6Eu,broadway
+5VJN4jB6PqqEg4kJiAj6Eu,show tunes
+2OEGI2wrCVmvavKEOMlccy,broadway
+2OEGI2wrCVmvavKEOMlccy,show tunes
+4H3e5t5utgPvj6Nsuda5QF,show tunes
+3cR4rhS2hBWqI7rJEBacvN,broadway
+3cR4rhS2hBWqI7rJEBacvN,show tunes
+3cR4rhS2hBWqI7rJEBacvN,vocal jazz
+3UUJfRbrA2nTbcg4i0MOwu,broadway
+3UUJfRbrA2nTbcg4i0MOwu,show tunes
+7jmTilWYlKOuavFfmQAcu6,adult standards
+7jmTilWYlKOuavFfmQAcu6,operatic pop
+7jmTilWYlKOuavFfmQAcu6,soft rock
+3X458ddYA2YcVWuVIGGOYe,contemporary r&b
+3X458ddYA2YcVWuVIGGOYe,dance pop
+3X458ddYA2YcVWuVIGGOYe,r&b
+3X458ddYA2YcVWuVIGGOYe,urban contemporary
+6UfoTQXaV3DuqtDVjZIxwZ,classic soul
+6UfoTQXaV3DuqtDVjZIxwZ,disco
+6UfoTQXaV3DuqtDVjZIxwZ,funk
+6UfoTQXaV3DuqtDVjZIxwZ,minneapolis sound
+6UfoTQXaV3DuqtDVjZIxwZ,post-disco
+6UfoTQXaV3DuqtDVjZIxwZ,quiet storm
+6UfoTQXaV3DuqtDVjZIxwZ,soul
+6UfoTQXaV3DuqtDVjZIxwZ,urban contemporary
+3MdG05syQeRYPPcClLaUGl,adult standards
+3MdG05syQeRYPPcClLaUGl,disco
+3MdG05syQeRYPPcClLaUGl,motown
+3MdG05syQeRYPPcClLaUGl,quiet storm
+3MdG05syQeRYPPcClLaUGl,soft rock
+3MdG05syQeRYPPcClLaUGl,soul
+7keGfmQR4X5w0two1xKZ7d,edm
+7keGfmQR4X5w0two1xKZ7d,pop dance
+7keGfmQR4X5w0two1xKZ7d,uk dance
+726MxZBpkxnnoKl6aN7mmj,bboy
+726MxZBpkxnnoKl6aN7mmj,instrumental funk
+4phr5rAgWhcZtWJu8w8lKv,new wave pop
+4phr5rAgWhcZtWJu8w8lKv,sophisti-pop
+134GdR5tUtxJrf8cpsfpyY,electropop
+134GdR5tUtxJrf8cpsfpyY,swedish indie pop
+02uYdhMhCgdB49hZlYRm9o,garage rock
+02uYdhMhCgdB49hZlYRm9o,garage rock revival
+02uYdhMhCgdB49hZlYRm9o,modern blues rock
+02uYdhMhCgdB49hZlYRm9o,palm desert scene
+0Sq7oGrYEe0BDmb13wgjOO,adult standards
+0Sq7oGrYEe0BDmb13wgjOO,bubblegum pop
+0Sq7oGrYEe0BDmb13wgjOO,mellow gold
+0Sq7oGrYEe0BDmb13wgjOO,soft rock
+5a2EaR3hamoenG9rDuVn8j,funk
+5a2EaR3hamoenG9rDuVn8j,funk rock
+5a2EaR3hamoenG9rDuVn8j,minneapolis sound
+5a2EaR3hamoenG9rDuVn8j,rock
+5a2EaR3hamoenG9rDuVn8j,synth funk
+0ty0xha1dbprYIUAQufkFn,contemporary r&b
+0ty0xha1dbprYIUAQufkFn,philly soul
+0ty0xha1dbprYIUAQufkFn,quiet storm
+0ty0xha1dbprYIUAQufkFn,r&b
+0ty0xha1dbprYIUAQufkFn,soul
+0ty0xha1dbprYIUAQufkFn,urban contemporary
+1PLakF1tFiv9zn73N2UjaN,tribal house
+1PLakF1tFiv9zn73N2UjaN,vocal house
+0v4es8yvR06oDJWG57Fxi8,tribal house
+0v4es8yvR06oDJWG57Fxi8,vocal house
+6auWB5YAlcKaHyrbTH66nd,indietronica
+64CuUOOirKmdAYLQSfaOyr,chicago soul
+64CuUOOirKmdAYLQSfaOyr,classic soul
+64CuUOOirKmdAYLQSfaOyr,disco
+64CuUOOirKmdAYLQSfaOyr,funk
+64CuUOOirKmdAYLQSfaOyr,girl group
+64CuUOOirKmdAYLQSfaOyr,motown
+64CuUOOirKmdAYLQSfaOyr,post-disco
+64CuUOOirKmdAYLQSfaOyr,quiet storm
+64CuUOOirKmdAYLQSfaOyr,soul
+64CuUOOirKmdAYLQSfaOyr,southern soul
+601893mmW5hl1FBOykWZHG,canadian pop
+601893mmW5hl1FBOykWZHG,contemporary r&b
+601893mmW5hl1FBOykWZHG,r&b
+601893mmW5hl1FBOykWZHG,urban contemporary
+601893mmW5hl1FBOykWZHG,vocal house
+63wjoROpeh5f11Qm93UiJ1,dance pop
+63wjoROpeh5f11Qm93UiJ1,hip pop
+63wjoROpeh5f11Qm93UiJ1,r&b
+63wjoROpeh5f11Qm93UiJ1,urban contemporary
+0TImkz4nPqjegtVSMZnMRq,atl hip hop
+0TImkz4nPqjegtVSMZnMRq,contemporary r&b
+0TImkz4nPqjegtVSMZnMRq,dance pop
+0TImkz4nPqjegtVSMZnMRq,girl group
+0TImkz4nPqjegtVSMZnMRq,hip pop
+0TImkz4nPqjegtVSMZnMRq,r&b
+0TImkz4nPqjegtVSMZnMRq,urban contemporary
+4FZ3j1oH43e7cukCALsCwf,alternative rock
+4FZ3j1oH43e7cukCALsCwf,blues rock
+4FZ3j1oH43e7cukCALsCwf,garage rock
+4FZ3j1oH43e7cukCALsCwf,garage rock revival
+4FZ3j1oH43e7cukCALsCwf,indie rock
+4FZ3j1oH43e7cukCALsCwf,modern blues rock
+4FZ3j1oH43e7cukCALsCwf,modern rock
+4FZ3j1oH43e7cukCALsCwf,punk blues
+4FZ3j1oH43e7cukCALsCwf,rock
+1rHOtdmGNr5vcYNw5v7QGC,indie hip hop
+1rHOtdmGNr5vcYNw5v7QGC,trap
+1rHOtdmGNr5vcYNw5v7QGC,underground hip hop
+6y5amJcTjeDgLXIjtQLMst,r&b
+2I1bnmb9VQEQGKHxvr0gSf,chicago rap
+2I1bnmb9VQEQGKHxvr0gSf,contemporary r&b
+2I1bnmb9VQEQGKHxvr0gSf,dirty south rap
+2I1bnmb9VQEQGKHxvr0gSf,hip pop
+2I1bnmb9VQEQGKHxvr0gSf,new jack swing
+2I1bnmb9VQEQGKHxvr0gSf,r&b
+2I1bnmb9VQEQGKHxvr0gSf,urban contemporary
+2iUbk5KhZYZt4CRvWbwb7S,miami hip hop
+3sklFG9fuDAq3vbIZlkNH6,glitchcore
+3sklFG9fuDAq3vbIZlkNH6,hyperpop
+3sklFG9fuDAq3vbIZlkNH6,proto-hyperpop
+3sklFG9fuDAq3vbIZlkNH6,transpop
+2Cm6C9PNHioyjRKBfO7n9N,hyperpop
+2Cm6C9PNHioyjRKBfO7n9N,proto-hyperpop
+2tSv9mEQSuNVMGr9qjYfkr,alternative r&b
+2tSv9mEQSuNVMGr9qjYfkr,escape room
+2tSv9mEQSuNVMGr9qjYfkr,lgbtq+ hip hop
+2tSv9mEQSuNVMGr9qjYfkr,trap queen
+3VHAySZQPlfGlNLslzXYpN,r&b en espanol
+3VHAySZQPlfGlNLslzXYpN,rap latina
+5oSCIcpPdrO3UhTMATxkYL,indie hip hop
+6gK1Uct5FEdaUWRWpU4Cl2,new french touch
+6i8Tae6takoQos2JZ4vdRn,alt z
+60ciIY5MouLc2Y9n34DJdA,contemporary r&b
+60ciIY5MouLc2Y9n34DJdA,neo soul
+60ciIY5MouLc2Y9n34DJdA,r&b
+60ciIY5MouLc2Y9n34DJdA,urban contemporary
+2WoVwexZuODvclzULjPQtm,alternative r&b
+2WoVwexZuODvclzULjPQtm,indie soul
+2RQXRUsr4IW1f3mKyKsy4B,pov: indie
+5vBrKGOjN10BMwB0cJADj4,alt z
+5vBrKGOjN10BMwB0cJADj4,indietronica
+5cBFMoMgcAt03YL2r0tS25,desi hip hop
+0cQuYRSzlItquYxsQKDvVc,album rock
+0cQuYRSzlItquYxsQKDvVc,classic canadian rock
+0cQuYRSzlItquYxsQKDvVc,classic rock
+0cQuYRSzlItquYxsQKDvVc,country rock
+0cQuYRSzlItquYxsQKDvVc,folk rock
+0cQuYRSzlItquYxsQKDvVc,hard rock
+0cQuYRSzlItquYxsQKDvVc,heartland rock
+0cQuYRSzlItquYxsQKDvVc,mellow gold
+0cQuYRSzlItquYxsQKDvVc,rock
+0cQuYRSzlItquYxsQKDvVc,singer-songwriter
+0cQuYRSzlItquYxsQKDvVc,soft rock
+2FwDTncULUnmANIh7qKa5z,filter house
+2FwDTncULUnmANIh7qKa5z,indie soul
+4bbjivSh1oG4NOc7uYHfw5,cloud rap
+4bbjivSh1oG4NOc7uYHfw5,underground hip hop
+2AR42Ur9PcchQDtEdwkv4L,electronica
+2AR42Ur9PcchQDtEdwkv4L,future garage
+2AR42Ur9PcchQDtEdwkv4L,intelligent dance music
+2AR42Ur9PcchQDtEdwkv4L,wonky
+1uRxRKC7d9zwYGSRflTKDR,indie soul
+1uRxRKC7d9zwYGSRflTKDR,pop soul
+2i9uaNzfUtuApAjEf1omV8,brooklyn indie
+2i9uaNzfUtuApAjEf1omV8,electropop
+2i9uaNzfUtuApAjEf1omV8,indie poptimism
+2i9uaNzfUtuApAjEf1omV8,nyc pop
+2i9uaNzfUtuApAjEf1omV8,shimmer pop
+5oU0tZlItLctcLOQPS3mCy,acoustic pop
+5oU0tZlItLctcLOQPS3mCy,anime score
+5oU0tZlItLctcLOQPS3mCy,ectofolk
+0hEurMDQu99nJRq8pTxO14,neo mellow
+0hEurMDQu99nJRq8pTxO14,singer-songwriter
+7x5rK9BClDQ8wmCkYAGsQp,british soul
+7x5rK9BClDQ8wmCkYAGsQp,neo mellow
+7x5rK9BClDQ8wmCkYAGsQp,scottish singer-songwriter
+7w0qj2HiAPIeUcoPogvOZ6,acoustic pop
+5zzrJD2jXrE9dZ1AklRFcL,ectofolk
+5zzrJD2jXrE9dZ1AklRFcL,lilith
+5zzrJD2jXrE9dZ1AklRFcL,neo mellow
+5zzrJD2jXrE9dZ1AklRFcL,pop rock
+5zzrJD2jXrE9dZ1AklRFcL,scottish singer-songwriter
+39x8gyJjTHiBQklFgVJSV4,acoustic pop
+39x8gyJjTHiBQklFgVJSV4,neo mellow
+1GxkXlMwML1oSg5eLPiAz3,adult standards
+1GxkXlMwML1oSg5eLPiAz3,canadian pop
+1GxkXlMwML1oSg5eLPiAz3,jazz pop
+1GxkXlMwML1oSg5eLPiAz3,lounge
+1HVwzNriKEjaeE06okqSpx,chanson
+1WPcVNert9hn7mHsPKDn7j,chanson
+1WPcVNert9hn7mHsPKDn7j,torch song
+1WPcVNert9hn7mHsPKDn7j,vintage schlager
+1mX1TWKpNxDSAH16LgDfiR,latin arena pop
+1mX1TWKpNxDSAH16LgDfiR,latin pop
+1mX1TWKpNxDSAH16LgDfiR,mexican pop
+1YzCsTRb22dQkh9lghPIrp,adult standards
+1YzCsTRb22dQkh9lghPIrp,harlem renaissance
+1YzCsTRb22dQkh9lghPIrp,jazz
+1YzCsTRb22dQkh9lghPIrp,jazz blues
+1YzCsTRb22dQkh9lghPIrp,soul
+1YzCsTRb22dQkh9lghPIrp,swing
+1YzCsTRb22dQkh9lghPIrp,torch song
+1YzCsTRb22dQkh9lghPIrp,vocal jazz
+7sfgqEdoeBTjd8lQsPT3Cy,r&b
+7sfgqEdoeBTjd8lQsPT3Cy,talent show
+7sfgqEdoeBTjd8lQsPT3Cy,uk pop
+2Kx7MNY7cI1ENniW7vT30N,contemporary vocal jazz
+2Kx7MNY7cI1ENniW7vT30N,jazz pop
+2Kx7MNY7cI1ENniW7vT30N,vocal jazz
+24gJ2GCq5zx1Mh08ZpmiSo,lds
+24gJ2GCq5zx1Mh08ZpmiSo,lilith
+3ppkM4QtM781APpaX7H9t7,deep talent show
+2EExdpjU4SK3xnJHO5paJf,adult standards
+2EExdpjU4SK3xnJHO5paJf,classic soundtrack
+2EExdpjU4SK3xnJHO5paJf,easy listening
+7h4j9YTJJuAHzLCc3KCvYu,acoustic pop
+7h4j9YTJJuAHzLCc3KCvYu,viral pop
+4phGZZrJZRo4ElhRtViYdl,acoustic pop
+4phGZZrJZRo4ElhRtViYdl,dance pop
+4phGZZrJZRo4ElhRtViYdl,neo mellow
+4phGZZrJZRo4ElhRtViYdl,pop
+0NkyXWGxE3WTFixDSJ39PK,adult standards
+0NkyXWGxE3WTFixDSJ39PK,easy listening
+0NkyXWGxE3WTFixDSJ39PK,torch song
+0NkyXWGxE3WTFixDSJ39PK,vocal jazz
+1Mxqyy3pSjf8kZZL4QVxS0,adult standards
+1Mxqyy3pSjf8kZZL4QVxS0,easy listening
+1Mxqyy3pSjf8kZZL4QVxS0,lounge
+4sj6D0zlMOl25nprDJBiU9,adult standards
+4sj6D0zlMOl25nprDJBiU9,easy listening
+4W48hZAnAHVOC2c8WH8pcq,indietronica
+4W48hZAnAHVOC2c8WH8pcq,modern rock
+4W48hZAnAHVOC2c8WH8pcq,shimmer pop
+4X8QFzZ1HqwPfwDfyjtwXC,adult standards
+4X8QFzZ1HqwPfwDfyjtwXC,easy listening
+4X8QFzZ1HqwPfwDfyjtwXC,lounge
+4X8QFzZ1HqwPfwDfyjtwXC,swing
+4X8QFzZ1HqwPfwDfyjtwXC,vocal jazz
+461wEQPf4xZo6cFF2J206o,indie singer-songwriter
+3plJVWt88EqjvtuB4ZDRV3,rock-and-roll
+3plJVWt88EqjvtuB4ZDRV3,soul
+0XK6kT7xcZAlcYrNjOgzJe,cantautora mexicana
+0XK6kT7xcZAlcYrNjOgzJe,mexican pop
+70cRZdQywnSFp9pnc2WTCE,classic rock
+70cRZdQywnSFp9pnc2WTCE,folk
+70cRZdQywnSFp9pnc2WTCE,folk rock
+70cRZdQywnSFp9pnc2WTCE,melancholia
+70cRZdQywnSFp9pnc2WTCE,mellow gold
+70cRZdQywnSFp9pnc2WTCE,rock
+70cRZdQywnSFp9pnc2WTCE,soft rock
+09E7wcrEyqU2n1rnhzVT0h,tin pan alley
+7rwI5cbw9cUKFVul2rZMiZ,contemporary vocal jazz
+7rwI5cbw9cUKFVul2rZMiZ,vocal jazz
+2WX2uTcsvV5OnS0inACecP,neo mellow
+2WX2uTcsvV5OnS0inACecP,uk pop
+3XxxEq6BREC57nCWXbQZ7o,contemporary vocal jazz
+3XxxEq6BREC57nCWXbQZ7o,jazz pop
+3XxxEq6BREC57nCWXbQZ7o,neo mellow
+4gzpq5DPGxSnKTe4SA8HAU,permanent wave
+4gzpq5DPGxSnKTe4SA8HAU,pop
+4uSftVc3FPWe6RJuMZNEe9,baroque pop
+4uSftVc3FPWe6RJuMZNEe9,chamber pop
+4uSftVc3FPWe6RJuMZNEe9,chicago indie
+4uSftVc3FPWe6RJuMZNEe9,indie rock
+4uSftVc3FPWe6RJuMZNEe9,melancholia
+4uSftVc3FPWe6RJuMZNEe9,stomp and holler
+536BYVgOnRky0xjsPT96zl,indie rock
+536BYVgOnRky0xjsPT96zl,indietronica
+536BYVgOnRky0xjsPT96zl,irish rock
+536BYVgOnRky0xjsPT96zl,modern alternative rock
+536BYVgOnRky0xjsPT96zl,modern rock
+536BYVgOnRky0xjsPT96zl,northern irish indie
+2ajhZ7EA6Dec0kaWiKCApF,talent show
+2ajhZ7EA6Dec0kaWiKCApF,uk hip hop
+7cfhZmKaLWzNLwHDxzugUH,british indie rock
+7cfhZmKaLWzNLwHDxzugUH,english indie rock
+7cfhZmKaLWzNLwHDxzugUH,shimmer pop
+0oeUpvxWsC8bWS6SnpU8b9,auckland indie
+0oeUpvxWsC8bWS6SnpU8b9,indietronica
+0oeUpvxWsC8bWS6SnpU8b9,kiwi rock
+0oeUpvxWsC8bWS6SnpU8b9,metropopolis
+0oeUpvxWsC8bWS6SnpU8b9,shimmer pop
+3koiLjNrgRTNbOwViDipeA,classic soul
+3koiLjNrgRTNbOwViDipeA,motown
+3koiLjNrgRTNbOwViDipeA,neo soul
+3koiLjNrgRTNbOwViDipeA,northern soul
+3koiLjNrgRTNbOwViDipeA,quiet storm
+3koiLjNrgRTNbOwViDipeA,soul
+4EVpmkEwrLYEg6jIsiPMIb,chamber pop
+4EVpmkEwrLYEg6jIsiPMIb,folk
+4EVpmkEwrLYEg6jIsiPMIb,indie folk
+4EVpmkEwrLYEg6jIsiPMIb,indie rock
+4EVpmkEwrLYEg6jIsiPMIb,indietronica
+4EVpmkEwrLYEg6jIsiPMIb,modern rock
+4EVpmkEwrLYEg6jIsiPMIb,seattle indie
+4EVpmkEwrLYEg6jIsiPMIb,singer-songwriter
+4EVpmkEwrLYEg6jIsiPMIb,stomp and holler
+196lKsA13K3keVXMDFK66q,indie folk
+196lKsA13K3keVXMDFK66q,new americana
+196lKsA13K3keVXMDFK66q,north carolina indie
+196lKsA13K3keVXMDFK66q,north carolina roots
+196lKsA13K3keVXMDFK66q,progressive bluegrass
+196lKsA13K3keVXMDFK66q,stomp and holler
+6KyUat70qaniuiZq63HzFZ,lounge
+3vbKDsSS70ZX9D2OcvbZmS,alternative rock
+3vbKDsSS70ZX9D2OcvbZmS,anti-folk
+3vbKDsSS70ZX9D2OcvbZmS,permanent wave
+3vbKDsSS70ZX9D2OcvbZmS,rock
+03EYBMnqSchCMp5D9qmFXi,contemporary vocal jazz
+03EYBMnqSchCMp5D9qmFXi,vocal jazz
+2Oboq4Pq88TcC9eUn2HSW9,folk-pop
+2Oboq4Pq88TcC9eUn2HSW9,hopebeat
+2Oboq4Pq88TcC9eUn2HSW9,shiver pop
+5cTn7jRVGqTdmgMW75FIal,indie poptimism
+5cTn7jRVGqTdmgMW75FIal,shimmer pop
+6WxegST7d2jCYjq7SR8Bds,contemporary vocal jazz
+6WxegST7d2jCYjq7SR8Bds,jazz pop
+3pTE9iaJTkWns3mxpNQlJV,british indie rock
+3pTE9iaJTkWns3mxpNQlJV,chamber pop
+3pTE9iaJTkWns3mxpNQlJV,indie rock
+3pTE9iaJTkWns3mxpNQlJV,indietronica
+3pTE9iaJTkWns3mxpNQlJV,modern rock
+3pTE9iaJTkWns3mxpNQlJV,shimmer pop
+72T7KgrFiMTgXRWxfuDn5o,acoustic cover
+72T7KgrFiMTgXRWxfuDn5o,pop folk
+3GjVVVcFmUgEJEAAsbGkf4,duluth indie
+3GjVVVcFmUgEJEAAsbGkf4,indie folk
+3GjVVVcFmUgEJEAAsbGkf4,jam band
+3GjVVVcFmUgEJEAAsbGkf4,new americana
+3GjVVVcFmUgEJEAAsbGkf4,progressive bluegrass
+3GjVVVcFmUgEJEAAsbGkf4,stomp and holler
+79hrYiudVcFyyxyJW0ipTy,australian indie folk
+79hrYiudVcFyyxyJW0ipTy,indie anthem-folk
+79hrYiudVcFyyxyJW0ipTy,indie folk
+79hrYiudVcFyyxyJW0ipTy,stomp and flutter
+79hrYiudVcFyyxyJW0ipTy,stomp and holler
+2fIUlieTjLTaNQUIKHX5B8,slovak pop
+0MlOPi3zIDMVrfA9R04Fe3,modern rock
+0MlOPi3zIDMVrfA9R04Fe3,pop rock
+0N12PNPrehNU9PVsJMfdzi,folk-pop
+0N12PNPrehNU9PVsJMfdzi,neo-traditional bluegrass
+5UqjSHztpMyc0liXncNbGD,indie rock
+0n94vC3S9c3mb2HyNAOcjg,folk-pop
+0n94vC3S9c3mb2HyNAOcjg,seattle indie
+0n94vC3S9c3mb2HyNAOcjg,stomp and holler
+1GLtl8uqKmnyCWxHmw9tL4,brighton indie
+1GLtl8uqKmnyCWxHmw9tL4,garage rock
+1GLtl8uqKmnyCWxHmw9tL4,modern rock
+1GLtl8uqKmnyCWxHmw9tL4,rock
+2sG4zTOLvjKG1PSoOyf5Ej,acoustic pop
+2sG4zTOLvjKG1PSoOyf5Ej,ectofolk
+2sG4zTOLvjKG1PSoOyf5Ej,folk
+2sG4zTOLvjKG1PSoOyf5Ej,indie folk
+2sG4zTOLvjKG1PSoOyf5Ej,lilith
+2sG4zTOLvjKG1PSoOyf5Ej,modern folk rock
+2sG4zTOLvjKG1PSoOyf5Ej,new americana
+7nXyULtoL8k7wP9l6kg8Ef,contemporary vocal jazz
+7nXyULtoL8k7wP9l6kg8Ef,jazz pop
+7nXyULtoL8k7wP9l6kg8Ef,vocal jazz
+2t9yJDJIEtvPmr2iRIdqBf,indie folk
+3QGKsAfhZdldQCLuLjk6zl,folk-pop
+3QGKsAfhZdldQCLuLjk6zl,viral pop
+3hozsZ9hqNq7CoBGYNlFTz,chicago indie
+3hozsZ9hqNq7CoBGYNlFTz,modern rock
+3hozsZ9hqNq7CoBGYNlFTz,permanent wave
+2F8tffsSfw1767WgjtAHBW,shimmer pop
+75jNCko3SnEMI5gwGqrbb8,classic soul
+75jNCko3SnEMI5gwGqrbb8,motown
+75jNCko3SnEMI5gwGqrbb8,soul
+75jNCko3SnEMI5gwGqrbb8,southern soul
+7CyeXFnOrfC1N6z4naIpgo,brill building pop
+7CyeXFnOrfC1N6z4naIpgo,classic girl group
+7CyeXFnOrfC1N6z4naIpgo,motown
+7CyeXFnOrfC1N6z4naIpgo,rock-and-roll
+7fIvjotigTGWqjIz6EP1i4,classic soul
+7fIvjotigTGWqjIz6EP1i4,disco
+7fIvjotigTGWqjIz6EP1i4,motown
+7fIvjotigTGWqjIz6EP1i4,quiet storm
+7fIvjotigTGWqjIz6EP1i4,soul
+0rXI0q8Cahq6numvPlloaq,classic girl group
+0rXI0q8Cahq6numvPlloaq,motown
+57bUPid8xztkieZfS7OlEV,classic girl group
+57bUPid8xztkieZfS7OlEV,disco
+57bUPid8xztkieZfS7OlEV,motown
+57bUPid8xztkieZfS7OlEV,soul
+2BVYdY4PyfCF9z4NrkhEB2,classic soul
+2BVYdY4PyfCF9z4NrkhEB2,memphis soul
+2BVYdY4PyfCF9z4NrkhEB2,soul
+2BVYdY4PyfCF9z4NrkhEB2,southern soul
+3rRmDmzPcAFwcUDvG5gBqO,classic soul
+3rRmDmzPcAFwcUDvG5gBqO,rock-and-roll
+3rRmDmzPcAFwcUDvG5gBqO,soul
+3rRmDmzPcAFwcUDvG5gBqO,southern soul
+1QAGLCom3FHTTiuRFsjzOj,memphis soul
+1QAGLCom3FHTTiuRFsjzOj,soul
+1QAGLCom3FHTTiuRFsjzOj,southern soul
+38h03gA85YYPeDPd9ER9rT,classic soul
+38h03gA85YYPeDPd9ER9rT,disco
+38h03gA85YYPeDPd9ER9rT,funk
+38h03gA85YYPeDPd9ER9rT,philly soul
+38h03gA85YYPeDPd9ER9rT,quiet storm
+38h03gA85YYPeDPd9ER9rT,soul
+38h03gA85YYPeDPd9ER9rT,southern soul
+1zuJe6b1roixEKMOtyrEak,soft rock
+336vr2M3Va0FjyvB55lJEd,indie soul
+336vr2M3Va0FjyvB55lJEd,neo soul
+336vr2M3Va0FjyvB55lJEd,soul
+6g0Wah2YFtb1rFgKhUktlo,funk
+6g0Wah2YFtb1rFgKhUktlo,neo soul
+6g0Wah2YFtb1rFgKhUktlo,soul
+5sennRot4Ls82wfspEQuf2,neo soul
+5sennRot4Ls82wfspEQuf2,r&b
+5sennRot4Ls82wfspEQuf2,urban contemporary
+41mwTkqJfMxPMbQmEdN2S2,british soul
+41mwTkqJfMxPMbQmEdN2S2,indie r&b
+6TKOZZDd5uV5KnyC5G4MUt,classic soul
+6TKOZZDd5uV5KnyC5G4MUt,motown
+6TKOZZDd5uV5KnyC5G4MUt,quiet storm
+6TKOZZDd5uV5KnyC5G4MUt,soul
+0NKDgy9j66h3DLnN8qu1bB,dance rock
+0NKDgy9j66h3DLnN8qu1bB,new romantic
+0NKDgy9j66h3DLnN8qu1bB,new wave
+0NKDgy9j66h3DLnN8qu1bB,new wave pop
+0NKDgy9j66h3DLnN8qu1bB,soft rock
+0NKDgy9j66h3DLnN8qu1bB,sophisti-pop
+0NKDgy9j66h3DLnN8qu1bB,synthpop
+5MspMQqdVbdwP6ax3GXqum,new romantic
+5MspMQqdVbdwP6ax3GXqum,new wave
+5MspMQqdVbdwP6ax3GXqum,new wave pop
+5MspMQqdVbdwP6ax3GXqum,singer-songwriter
+5MspMQqdVbdwP6ax3GXqum,soft rock
+5MspMQqdVbdwP6ax3GXqum,synthpop
+7gcCQIlkkfbul5Mt0jBQkg,new wave pop
+7gcCQIlkkfbul5Mt0jBQkg,rock keyboard
+0W498bDDNlJIrYMKXdpLHA,adult standards
+0W498bDDNlJIrYMKXdpLHA,classic soul
+0W498bDDNlJIrYMKXdpLHA,disco
+0W498bDDNlJIrYMKXdpLHA,quiet storm
+0W498bDDNlJIrYMKXdpLHA,soft rock
+0W498bDDNlJIrYMKXdpLHA,soul
+0W498bDDNlJIrYMKXdpLHA,vocal jazz
+19ra5tSw0tWufvUp8GotLo,new wave pop
+2GFB1Lc67mbqFXTPCM9XzT,classic soul
+2W8UTum7bU7ue6m0r14H97,classic soul
+2W8UTum7bU7ue6m0r14H97,disco
+2W8UTum7bU7ue6m0r14H97,funk
+2W8UTum7bU7ue6m0r14H97,memphis soul
+2W8UTum7bU7ue6m0r14H97,motown
+2W8UTum7bU7ue6m0r14H97,p funk
+2W8UTum7bU7ue6m0r14H97,post-disco
+2W8UTum7bU7ue6m0r14H97,quiet storm
+2W8UTum7bU7ue6m0r14H97,soul
+2W8UTum7bU7ue6m0r14H97,southern soul
+4BtDAwCZhR6nPrJtbVgQNX,adult standards
+4BtDAwCZhR6nPrJtbVgQNX,vintage hollywood
+2iHiqwlS40GTFt8eELeoHr,torch song
+2iHiqwlS40GTFt8eELeoHr,vintage hollywood
+16eV2TebyEhqaDRFEZJ9h8,hollywood
+16eV2TebyEhqaDRFEZJ9h8,vintage hollywood
+45a6gCQWq61lIUDmr1tKuO,dirty south rap
+45a6gCQWq61lIUDmr1tKuO,houston rap
+0st5vgzw9XkH5ALJiUM1lE,crunk
+0st5vgzw9XkH5ALJiUM1lE,dirty south rap
+31TPClRtHm23RisEBtV3X7,dance pop
+31TPClRtHm23RisEBtV3X7,pop
+4QTVePrFu1xuGM9K0kNXkk,new romantic
+4QTVePrFu1xuGM9K0kNXkk,new wave
+4QTVePrFu1xuGM9K0kNXkk,new wave pop
+1kObei2IODphSwCsUHFQdo,boy band
+5T0MSzX9RC5NA6gAI6irSn,neo soul
+5T0MSzX9RC5NA6gAI6irSn,r&b
+2BTZIqw0ntH9MvilQ3ewNY,dance pop
+2BTZIqw0ntH9MvilQ3ewNY,new wave pop
+2BTZIqw0ntH9MvilQ3ewNY,permanent wave
+2BTZIqw0ntH9MvilQ3ewNY,soft rock
+77tT1kLj6mCWtFNqiOmP9H,album rock
+77tT1kLj6mCWtFNqiOmP9H,classic rock
+77tT1kLj6mCWtFNqiOmP9H,heartland rock
+77tT1kLj6mCWtFNqiOmP9H,mellow gold
+77tT1kLj6mCWtFNqiOmP9H,rock
+77tT1kLj6mCWtFNqiOmP9H,singer-songwriter
+77tT1kLj6mCWtFNqiOmP9H,soft rock
+77tT1kLj6mCWtFNqiOmP9H,yacht rock
+1tqZaCwM57UFKjWoYwMLrw,lilith
+1tqZaCwM57UFKjWoYwMLrw,new wave pop
+1tqZaCwM57UFKjWoYwMLrw,permanent wave
+1tqZaCwM57UFKjWoYwMLrw,pop rock
+1tqZaCwM57UFKjWoYwMLrw,swedish pop
+5aYyPjAsLj7UzANzdupwnS,alternative metal
+5aYyPjAsLj7UzANzdupwnS,modern rock
+5aYyPjAsLj7UzANzdupwnS,neon pop punk
+5aYyPjAsLj7UzANzdupwnS,pop punk
+5aYyPjAsLj7UzANzdupwnS,pop rock
+5aYyPjAsLj7UzANzdupwnS,post-grunge
+1T0wRBO0CK0vK8ouUMqEl5,adult standards
+1T0wRBO0CK0vK8ouUMqEl5,british invasion
+77zrvBORXcnTyysjjKRfBU,new romantic
+77zrvBORXcnTyysjjKRfBU,synthpop
+5ivCbtrcD5N4rD337xIb2z,indie poptimism
+5ivCbtrcD5N4rD337xIb2z,modern rock
+5ivCbtrcD5N4rD337xIb2z,nyc pop
+5ivCbtrcD5N4rD337xIb2z,shimmer pop
+3fMbdgg4jU18AjLCKBhRSm,r&b
+3fMbdgg4jU18AjLCKBhRSm,soul
+6hl5k4gLl1p3sjhHcb57t2,britpop revival
+6hl5k4gLl1p3sjhHcb57t2,english indie rock
+6hl5k4gLl1p3sjhHcb57t2,indie surf
+6hl5k4gLl1p3sjhHcb57t2,liverpool indie
+6hl5k4gLl1p3sjhHcb57t2,modern alternative rock
+6hl5k4gLl1p3sjhHcb57t2,modern rock
+0PGB0xsAyDqHHlvNQcgq5S,indie poptimism
+0PGB0xsAyDqHHlvNQcgq5S,la pop
+3PAwspMN27PDm81WwXDsMf,reggaeton
+3PAwspMN27PDm81WwXDsMf,reggaeton colombiano
+3PAwspMN27PDm81WwXDsMf,trap latino
+3PAwspMN27PDm81WwXDsMf,urbano latino
+5H1nN1SzW0qNeUEZvuXjAj,pop venezolano
+5H1nN1SzW0qNeUEZvuXjAj,reggaeton
+5H1nN1SzW0qNeUEZvuXjAj,trap latino
+5H1nN1SzW0qNeUEZvuXjAj,urbano latino
+3t83f2J04dRWOpNBe9GTfs,contemporary r&b
+3t83f2J04dRWOpNBe9GTfs,neo soul
+3t83f2J04dRWOpNBe9GTfs,r&b
+3t83f2J04dRWOpNBe9GTfs,urban contemporary
+37mtx80nMDETlbsq2eFCzc,talent show
+37mtx80nMDETlbsq2eFCzc,uk pop
+7lzordPuZEXxwt9aoVZYmG,album rock
+7lzordPuZEXxwt9aoVZYmG,classic rock
+7lzordPuZEXxwt9aoVZYmG,dance rock
+7lzordPuZEXxwt9aoVZYmG,hard rock
+7lzordPuZEXxwt9aoVZYmG,new romantic
+7lzordPuZEXxwt9aoVZYmG,new wave
+7lzordPuZEXxwt9aoVZYmG,new wave pop
+7lzordPuZEXxwt9aoVZYmG,rock
+7lzordPuZEXxwt9aoVZYmG,soft rock
+1inWec2E2UgfzMAhwjgTXe,glam punk
+1inWec2E2UgfzMAhwjgTXe,punk
+4DdkRBBYG6Yk9Ka8tdJ9BW,atl hip hop
+4DdkRBBYG6Yk9Ka8tdJ9BW,hip hop
+4DdkRBBYG6Yk9Ka8tdJ9BW,pop rap
+4DdkRBBYG6Yk9Ka8tdJ9BW,rap
+4DdkRBBYG6Yk9Ka8tdJ9BW,trap
+2vGaSKEDFsVPBgcnGxqlBN,indie poptimism
+2vGaSKEDFsVPBgcnGxqlBN,strut
+2XzHxDFTNywDd5ReMhgxkg,classic soul
+2XzHxDFTNywDd5ReMhgxkg,disco
+2XzHxDFTNywDd5ReMhgxkg,funk
+2XzHxDFTNywDd5ReMhgxkg,new jack swing
+2XzHxDFTNywDd5ReMhgxkg,post-disco
+2XzHxDFTNywDd5ReMhgxkg,quiet storm
+2XzHxDFTNywDd5ReMhgxkg,soul
+2XzHxDFTNywDd5ReMhgxkg,urban contemporary
+2PfBzriIMRsCXPDtSy9vg8,canadian pop
+2PfBzriIMRsCXPDtSy9vg8,chamber pop
+2PfBzriIMRsCXPDtSy9vg8,melancholia
+2PfBzriIMRsCXPDtSy9vg8,piano rock
+2PfBzriIMRsCXPDtSy9vg8,singer-songwriter
+5RJFJWYgtgWktosLrUDzff,uk pop
+0kbYTNQb4Pb1rPbbaF0pT4,cool jazz
+0kbYTNQb4Pb1rPbbaF0pT4,hard bop
+0kbYTNQb4Pb1rPbbaF0pT4,jazz
+0kbYTNQb4Pb1rPbbaF0pT4,jazz fusion
+0kbYTNQb4Pb1rPbbaF0pT4,jazz trumpet
+0kbYTNQb4Pb1rPbbaF0pT4,soul
+0kbYTNQb4Pb1rPbbaF0pT4,vocal jazz
+2hGh5VOeeqimQFxqXvfCUf,bebop
+2hGh5VOeeqimQFxqXvfCUf,free jazz
+2hGh5VOeeqimQFxqXvfCUf,jazz
+2hGh5VOeeqimQFxqXvfCUf,jazz saxophone
+2hGh5VOeeqimQFxqXvfCUf,vocal jazz
+35iymrFS4VnsKn35ebHKX9,bebop
+35iymrFS4VnsKn35ebHKX9,hard bop
+35iymrFS4VnsKn35ebHKX9,jazz
+35iymrFS4VnsKn35ebHKX9,jazz piano
+0M1UOBJZ9tcKJbrbnVlHZG,bebop
+0M1UOBJZ9tcKJbrbnVlHZG,contemporary post-bop
+0M1UOBJZ9tcKJbrbnVlHZG,hard bop
+0M1UOBJZ9tcKJbrbnVlHZG,jazz
+0M1UOBJZ9tcKJbrbnVlHZG,jazz double bass
+4WhH68K75YKSAwHAqWFpi1,bebop
+4WhH68K75YKSAwHAqWFpi1,hard bop
+4WhH68K75YKSAwHAqWFpi1,jazz drums
+3qUMmh5biaB5hqpF4LqS3m,torch song
+3qUMmh5biaB5hqpF4LqS3m,vocal jazz
+2jFZlvIea42ZvcCw4OeEdA,big band
+2jFZlvIea42ZvcCw4OeEdA,harlem renaissance
+2jFZlvIea42ZvcCw4OeEdA,jazz
+2jFZlvIea42ZvcCw4OeEdA,jazz piano
+2jFZlvIea42ZvcCw4OeEdA,swing
+2jFZlvIea42ZvcCw4OeEdA,vocal jazz
+3CEdEF8RsuL3hAFJaujvr0,adult standards
+3CEdEF8RsuL3hAFJaujvr0,vocal jazz
+7gXUrN8vgmVhKVCkw9pavV,jazz piano
+7gXUrN8vgmVhKVCkw9pavV,space age pop
+19eLuQmk9aCobbVDHc6eek,adult standards
+19eLuQmk9aCobbVDHc6eek,dixieland
+19eLuQmk9aCobbVDHc6eek,harlem renaissance
+19eLuQmk9aCobbVDHc6eek,jazz trumpet
+19eLuQmk9aCobbVDHc6eek,new orleans jazz
+19eLuQmk9aCobbVDHc6eek,soul
+19eLuQmk9aCobbVDHc6eek,swing
+19eLuQmk9aCobbVDHc6eek,vocal jazz
+0FMucZsEnCxs5pqBjHjIc8,bebop
+0FMucZsEnCxs5pqBjHjIc8,bossa nova
+0FMucZsEnCxs5pqBjHjIc8,cool jazz
+0FMucZsEnCxs5pqBjHjIc8,jazz
+0FMucZsEnCxs5pqBjHjIc8,jazz saxophone
+0FMucZsEnCxs5pqBjHjIc8,latin jazz
+0FMucZsEnCxs5pqBjHjIc8,samba-jazz
+0FMucZsEnCxs5pqBjHjIc8,vocal jazz
+77ZUbcdoU5KCPHNUl8bgQy,bossa nova
+77ZUbcdoU5KCPHNUl8bgQy,brazilian jazz
+77ZUbcdoU5KCPHNUl8bgQy,cool jazz
+77ZUbcdoU5KCPHNUl8bgQy,jazz guitar
+77ZUbcdoU5KCPHNUl8bgQy,samba
+77ZUbcdoU5KCPHNUl8bgQy,violao
+5rX2c1zow6hCph8PnnU3kF,bossa nova
+5rX2c1zow6hCph8PnnU3kF,brazilian jazz
+5rX2c1zow6hCph8PnnU3kF,lounge
+5rX2c1zow6hCph8PnnU3kF,samba-jazz
+5rX2c1zow6hCph8PnnU3kF,vocal jazz
+1pfiDZtUYY64LDWQZ941BN,boogie-woogie
+1pfiDZtUYY64LDWQZ941BN,jazz piano
+1pfiDZtUYY64LDWQZ941BN,piano blues
+7MiRMD4od8lrhJ8sd0etP0,boogie-woogie
+7MiRMD4od8lrhJ8sd0etP0,piano blues
+1VEzN9lxvG6KPR3QQGsebR,bebop
+1VEzN9lxvG6KPR3QQGsebR,contemporary post-bop
+1VEzN9lxvG6KPR3QQGsebR,jazz
+1VEzN9lxvG6KPR3QQGsebR,jazz saxophone
+4WoGga7UeRcmjD4ufif4nG,adult standards
+4WoGga7UeRcmjD4ufif4nG,big band
+4WoGga7UeRcmjD4ufif4nG,dixieland
+4WoGga7UeRcmjD4ufif4nG,jazz trombone
+4WoGga7UeRcmjD4ufif4nG,swing
+4WoGga7UeRcmjD4ufif4nG,tin pan alley
+4WoGga7UeRcmjD4ufif4nG,vintage jazz
+4F7Q5NV6h5TSwCainz8S5A,african-american classical
+4F7Q5NV6h5TSwCainz8S5A,harlem renaissance
+4F7Q5NV6h5TSwCainz8S5A,jazz
+4F7Q5NV6h5TSwCainz8S5A,jazz piano
+4F7Q5NV6h5TSwCainz8S5A,swing
+4F7Q5NV6h5TSwCainz8S5A,vocal jazz
+0hItVPjwJLVZrFqOyIsxPf,adult standards
+0hItVPjwJLVZrFqOyIsxPf,torch song
+0hItVPjwJLVZrFqOyIsxPf,vocal jazz
+2PjgZkwAEk7UTin4jP6HLP,bebop
+2PjgZkwAEk7UTin4jP6HLP,big band
+2PjgZkwAEk7UTin4jP6HLP,dixieland
+2PjgZkwAEk7UTin4jP6HLP,jazz
+2PjgZkwAEk7UTin4jP6HLP,stride
+2PjgZkwAEk7UTin4jP6HLP,swing
+2PjgZkwAEk7UTin4jP6HLP,tin pan alley
+2PjgZkwAEk7UTin4jP6HLP,vintage jazz
+0DYWCXTkNqGFZIf67SrWEa,dixieland
+0DYWCXTkNqGFZIf67SrWEa,harlem renaissance
+0DYWCXTkNqGFZIf67SrWEa,jazz
+0DYWCXTkNqGFZIf67SrWEa,jazz piano
+0DYWCXTkNqGFZIf67SrWEa,stride
+0DYWCXTkNqGFZIf67SrWEa,swing
+0DYWCXTkNqGFZIf67SrWEa,tin pan alley
+0DYWCXTkNqGFZIf67SrWEa,vintage jazz
+0DYWCXTkNqGFZIf67SrWEa,vocal jazz
+30UIjoCGuL3Fa5BOc3ayNW,afrobeat
+30UIjoCGuL3Fa5BOc3ayNW,afropop
+30UIjoCGuL3Fa5BOc3ayNW,makossa
+30UIjoCGuL3Fa5BOc3ayNW,world
+4sQVPSDmfqIxG9W8o2EROX,bebop
+4sQVPSDmfqIxG9W8o2EROX,jazz
+4sQVPSDmfqIxG9W8o2EROX,jazz quartet
+49e4v89VmlDcFCMyDv9wQ9,adult standards
+49e4v89VmlDcFCMyDv9wQ9,easy listening
+49e4v89VmlDcFCMyDv9wQ9,lounge
+49e4v89VmlDcFCMyDv9wQ9,vocal jazz
+2Hn9fch2OLB5jZuEAVjTCe,big band
+2Hn9fch2OLB5jZuEAVjTCe,jazz
+2Hn9fch2OLB5jZuEAVjTCe,swing
+6dUZplQfg5blo0h9HiJ94d,bebop
+6dUZplQfg5blo0h9HiJ94d,jazz
+6dUZplQfg5blo0h9HiJ94d,jazz piano
+1sdyFmN4bVOcuFDpTVsxBB,bebop
+1sdyFmN4bVOcuFDpTVsxBB,jazz
+1sdyFmN4bVOcuFDpTVsxBB,jazz guitar
+1sdyFmN4bVOcuFDpTVsxBB,soul jazz
+1sdyFmN4bVOcuFDpTVsxBB,straight-ahead jazz
+5V5vvh5MgM7vDuPp4lJYkh,avant-garde jazz
+5V5vvh5MgM7vDuPp4lJYkh,experimental big band
+5V5vvh5MgM7vDuPp4lJYkh,free jazz
+1nUb2VIRkIq9Qwmg1XdI1T,german jazz
+0x9L9ChXVAf3hFOb0CbRmd,vocal jazz
+3kUKwTJdH8FuWzF8p6Dg9E,american modern classical
+3kUKwTJdH8FuWzF8p6Dg9E,bebop
+3kUKwTJdH8FuWzF8p6Dg9E,cool jazz
+3kUKwTJdH8FuWzF8p6Dg9E,jazz
+3kUKwTJdH8FuWzF8p6Dg9E,jazz piano
+6u17YlWtW4oqFF5Hn9UU79,adult standards
+6u17YlWtW4oqFF5Hn9UU79,contemporary vocal jazz
+6u17YlWtW4oqFF5Hn9UU79,lounge
+6u17YlWtW4oqFF5Hn9UU79,vocal jazz
+338mC0yGyX0C9of8QMJ5hK,jazz saxophone
+338mC0yGyX0C9of8QMJ5hK,soul jazz
+7izkpvBGc31hUccjdSNz8k,instrumental soul
+7izkpvBGc31hUccjdSNz8k,jazz funk
+7izkpvBGc31hUccjdSNz8k,jazz organ
+7izkpvBGc31hUccjdSNz8k,soul jazz
+3NUsiT2JSyaWAnWaXxDzhQ,bebop
+3NUsiT2JSyaWAnWaXxDzhQ,jazz
+3NUsiT2JSyaWAnWaXxDzhQ,jazz saxophone
+5cbutZUQE7SUCA6MsEMbBv,bebop
+5cbutZUQE7SUCA6MsEMbBv,hard bop
+5cbutZUQE7SUCA6MsEMbBv,jazz
+5cbutZUQE7SUCA6MsEMbBv,jazz saxophone
+6ykfXAed2KOLOMI3R0TZdz,bebop
+6ykfXAed2KOLOMI3R0TZdz,hard bop
+6ykfXAed2KOLOMI3R0TZdz,jazz
+6ykfXAed2KOLOMI3R0TZdz,jazz drums
+32LHRiof0sa4taYew9i3Fa,jazz blues
+32LHRiof0sa4taYew9i3Fa,soul
+32LHRiof0sa4taYew9i3Fa,vocal jazz
+2ZUAe0H2nhsuuCOykSVsJ2,bebop
+2ZUAe0H2nhsuuCOykSVsJ2,contemporary post-bop
+2ZUAe0H2nhsuuCOykSVsJ2,hard bop
+2ZUAe0H2nhsuuCOykSVsJ2,jazz
+2ZUAe0H2nhsuuCOykSVsJ2,jazz quartet
+5r2DrmyTTiDTQaFz3tyX8W,instrumental soul
+5gYIhpLwCYoxh3V8KANZpI,christmas instrumental
+5gYIhpLwCYoxh3V8KANZpI,relaxative
+1bgyxtWjZwA5PQlDsvs9b8,jazz
+1bgyxtWjZwA5PQlDsvs9b8,torch song
+1bgyxtWjZwA5PQlDsvs9b8,vocal jazz
+2P1puQXmG48EVLBrHbum1J,contemporary vocal jazz
+2P1puQXmG48EVLBrHbum1J,vocal jazz
+2ZvrvbQNrHKwjT7qfGFFUW,contemporary post-bop
+2ZvrvbQNrHKwjT7qfGFFUW,instrumental funk
+2ZvrvbQNrHKwjT7qfGFFUW,jazz
+2ZvrvbQNrHKwjT7qfGFFUW,jazz funk
+2ZvrvbQNrHKwjT7qfGFFUW,jazz fusion
+2ZvrvbQNrHKwjT7qfGFFUW,jazz piano
+6G4hVmXKJ9NW5JecncK89f,contemporary post-bop
+6G4hVmXKJ9NW5JecncK89f,jazz saxophone
+5iCN8xlg1r3uXDW5yLFHmJ,jazz drums
+2lolQgalUvZDfp5vvVtTYV,adult standards
+2lolQgalUvZDfp5vvVtTYV,easy listening
+2lolQgalUvZDfp5vvVtTYV,lounge
+2lolQgalUvZDfp5vvVtTYV,vocal jazz
+0i5yrKtlP4URcRBXQQwnik,bossa nova
+0i5yrKtlP4URcRBXQQwnik,jazz guitar
+0INatsTiEOX0EJimNTQjSM,alternative r&b
+0INatsTiEOX0EJimNTQjSM,indie soul
+3aM9H4QBnPUo6mnNVufAtN,cool jazz
+3aM9H4QBnPUo6mnNVufAtN,jazz trombone
+4jXfFzeP66Zy67HM2mvIIF,bebop
+4jXfFzeP66Zy67HM2mvIIF,contemporary post-bop
+4jXfFzeP66Zy67HM2mvIIF,cool jazz
+4jXfFzeP66Zy67HM2mvIIF,jazz
+4jXfFzeP66Zy67HM2mvIIF,jazz piano
+4jXfFzeP66Zy67HM2mvIIF,vocal jazz
+5olDKSsFhhmwh8UCWwKtpq,bebop
+5olDKSsFhhmwh8UCWwKtpq,contemporary post-bop
+5olDKSsFhhmwh8UCWwKtpq,ecm-style jazz
+5olDKSsFhhmwh8UCWwKtpq,electric bass
+5olDKSsFhhmwh8UCWwKtpq,jazz
+5olDKSsFhhmwh8UCWwKtpq,jazz funk
+5olDKSsFhhmwh8UCWwKtpq,jazz fusion
+5olDKSsFhhmwh8UCWwKtpq,jazz piano
+174ThXFgQg2VCq9r3m8ceb,bossa nova
+174ThXFgQg2VCq9r3m8ceb,brazilian jazz
+174ThXFgQg2VCq9r3m8ceb,jazz guitar
+174ThXFgQg2VCq9r3m8ceb,samba-jazz
+174ThXFgQg2VCq9r3m8ceb,violao
+5RzjqfPS0Bu4bUMkyNNDpn,bebop
+5RzjqfPS0Bu4bUMkyNNDpn,contemporary post-bop
+5RzjqfPS0Bu4bUMkyNNDpn,jazz
+5RzjqfPS0Bu4bUMkyNNDpn,jazz trumpet
+5RzjqfPS0Bu4bUMkyNNDpn,vocal jazz
+6QQuESLtKhAOcLW2TeWC2t,bebop
+6QQuESLtKhAOcLW2TeWC2t,contemporary post-bop
+6QQuESLtKhAOcLW2TeWC2t,hard bop
+6QQuESLtKhAOcLW2TeWC2t,jazz
+6QQuESLtKhAOcLW2TeWC2t,jazz drums
+4yPUoMbYxVJ6XNJWZVJV7Y,jazz saxophone
+1pwr5rTWLVfqhvHfB7Reap,cool jazz
+1pwr5rTWLVfqhvHfB7Reap,jazz saxophone
+162DCkd8aDKwvjBb74Gu8b,bebop
+162DCkd8aDKwvjBb74Gu8b,contemporary post-bop
+162DCkd8aDKwvjBb74Gu8b,electric bass
+162DCkd8aDKwvjBb74Gu8b,jazz
+162DCkd8aDKwvjBb74Gu8b,jazz funk
+162DCkd8aDKwvjBb74Gu8b,jazz fusion
+68l2i6GeNtwQlhKS59u5bu,bebop
+68l2i6GeNtwQlhKS59u5bu,contemporary post-bop
+68l2i6GeNtwQlhKS59u5bu,cool jazz
+68l2i6GeNtwQlhKS59u5bu,jazz
+68l2i6GeNtwQlhKS59u5bu,jazz saxophone
