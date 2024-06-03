@@ -61,7 +61,12 @@ def get_my_playlists(BASE_URL, headers):
         url = r['next']
         playlist_data = r['items']
         for playlist in playlist_data:
-            playlists.append(playlist)
+            pl_obj = {}
+            pl_obj['playlist_id'] = playlist['id']
+            pl_obj['owner_id'] = playlist['owner']['id']
+            pl_obj['owner_name'] = playlist['owner']['display_name']
+            pl_obj['playlist_name'] = playlist['name']
+            playlists.append(pl_obj)
 
     return playlists
 
@@ -115,6 +120,7 @@ def create_tracklist_json(playlist_data, BASE_URL, headers):
     Given a list of playlist ids, retrieve the tracks for each playlist and return them as a list
     """
     all_pl_tracks = []
+    unique_tracks = []
     for playlist_obj in playlist_data:
         tracks =  get_playlist_tracks(playlist_obj['playlist_id'],BASE_URL,headers)
 
@@ -122,9 +128,14 @@ def create_tracklist_json(playlist_data, BASE_URL, headers):
             track['playlist_id'] = playlist_obj['playlist_id']
             all_pl_tracks.append(track)
 
+            if track['track']['id'] not in unique_tracks:
+               unique_tracks.append(track['track']['id'])
+    print('UNIQUE TRACK LENGTH')
+    print(len(unique_tracks))
     return all_pl_tracks
 
 def get_artist_ids(all_pl_tracks):
+    """ Build a list of unique artist ids based on the tracks retrieved"""
     artist_ids = []
 
     for track in all_pl_tracks:
@@ -135,13 +146,12 @@ def get_artist_ids(all_pl_tracks):
 
 def get_artists(all_pl_tracks, BASE_URL, headers):
     '''Retrieve artists from Spotify APIs
-    
     '''
     artist_ids = get_artist_ids(all_pl_tracks)
     num_artist_ids = len(artist_ids)
 
     print('number of artists: ',num_artist_ids)
-    max_artists = 50
+    max_artists = 50 # maximum retrieval count allowed
     num_api_calls = math.ceil(num_artist_ids / max_artists)
 
     artists_json = []
@@ -280,24 +290,14 @@ def main():
         headers = {
             'Authorization': 'Bearer {token}'.format(token=access_token)
         }
-        playlists = get_my_playlists(BASE_URL, headers)
-
-        # write raw playlist api output to file so you can use old data if api fails
-        write_json_to_file(playlists, 'playlist_api_data.json')
-
-
-        # Open JSON file
-        f = open('playlist_api_data.json')
-        playlists = json.load(f)
-        f.close() 
 
         # process playlist data
-        playlist_data = get_playlist_list(playlists)
-        playlist_table = create_playlist_table(playlist_data)
+        playlists = get_my_playlists(BASE_URL, headers)
+        playlist_table = create_playlist_table(playlists)
         write_to_csv(playlist_table,'playlists.csv')
 
         # get playlist tracks
-        all_pl_tracks = create_tracklist_json(playlist_data, BASE_URL, headers)
+        all_pl_tracks = create_tracklist_json(playlists, BASE_URL, headers)
         artist_track_lookup_table = create_track_artist_lookup_table(all_pl_tracks)
 
         write_to_csv(artist_track_lookup_table,'artist_track_lookup.csv')
